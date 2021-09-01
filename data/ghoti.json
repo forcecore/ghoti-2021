@@ -1,0 +1,27 @@
+{
+  "info": {
+    "version": "0.1",
+      "description": "GHOTI",
+      "date_created": "2021",
+      "contributor": "Deokjin Joo, Ye-seul Kwan, Jongwoo Song, Catarina Pinho, Jody Hey and Yong-Jin Won"
+  },
+
+  "categories": [
+    { "id": 0, "name": "gm_f" },
+    { "id": 1, "name": "lf_m" }
+  ],
+
+  "images": [
+    { "id": "08-0128", "file_name": "gm_f/08-0128.jpg",
+      "width": 915, "height": 273,
+      "location": "dummy" },
+    { "id": "08-0311", "file_name": "lf_m/08-0311.jpg",
+      "width": 1314, "height": 423,
+      "location": "dummy" }
+  ],
+
+  "annotations": [
+    { "id": "08-0128", "image_id": "08-0128", "category_id": 0 },
+    { "id": "08-0311", "image_id": "08-0311", "category_id": 1 }
+  ]
+}
