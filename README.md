@@ -244,7 +244,7 @@ https://github.com/Microsoft/CameraTraps/blob/master/data_management/README.md#c
 
 대략 위와 같이 2개 sample만 작성하고 실행이 되나 안 되나, 인식이 잘 되나 안 되나부터 보는게 급선무다.
 
-2_preproc.sh 를 작성했다. `bash 2_preproc.sh`로 실행하면 된다.
+20_preproc.sh 를 작성했다. `bash 20_preproc.sh`로 실행하면 된다.
 
 ```
 GHOTI=$HOME/work/ghoti-2021
@@ -379,4 +379,4 @@ WARNING: No images were written to tfrecords!
 ### 대량의 JSON Entry 생성
 
 프로그래밍적으로 하는 방법이 있고 그 방법을 추천한다.
-3_make_json.py 를 실행하면 된다.
+30_make_json.py 를 실행하면 된다.
