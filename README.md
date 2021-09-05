@@ -379,4 +379,4 @@ WARNING: No images were written to tfrecords!
 ### 대량의 JSON Entry 생성
 
 프로그래밍적으로 하는 방법이 있고 그 방법을 추천한다.
-30_make_json.py 를 실행하면 된다.
+11_make_json.py 를 실행하면 된다.

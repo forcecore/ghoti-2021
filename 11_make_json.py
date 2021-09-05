@@ -39,9 +39,6 @@ def get_images_and_annotations(categories, fnames: List[Path]):
     { "id": "08-0311", "image_id": "08-0311", "category_id": 1 }
     """
 
-    images = []
-    annotations = []
-
     def as_image_entry(fname: Path):
         # fname looks like this: data/toc_m/08-1128.jpg
         tmp = str(fname).split("/")
@@ -50,14 +47,16 @@ def get_images_and_annotations(categories, fnames: List[Path]):
         width, height = get_wh(fname)
         return {"id": id, "file_name": f"{category}/{fname.name}", "width": width, "height": height, "location": "dummy", "_category": category}
 
+    def as_annotation(x: dict, lut: dict):
+        return { "id": x["id"], "image_id": x["id"], "category_id": lut[x["_category"]] }
+
     # make cat_str to cat_it lookup table
     lut = {item["name"]: item["id"] for item in categories}
 
-    def as_annotation(x: dict):
-        return { "id": x["id"], "image_id": x["id"], "category_id": lut[x["_category"]] }
-
+    images = []
+    annotations = []
     images = [as_image_entry(x) for x in fnames]
-    annotations = [as_annotation(x) for x in images]
+    annotations = [as_annotation(x, lut) for x in images]
     return images, annotations
 
 
@@ -73,11 +72,8 @@ def make_contents(folders: List[Path], jpg_files: List[Path]):
             "date_created": "2021",
             "contributor": "Deokjin Joo, Ye-seul Kwan, Jongwoo Song, Catarina Pinho, Jody Hey and Yong-Jin Won"
         },
-
         "categories": categories,
-
         "images": images,
-
         "annotations": annotations
     }
     return contents
