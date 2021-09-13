@@ -1,25 +1,24 @@
 #!/usr/bin/env python
 import json
 from pathlib import Path
-from typing import List, Tuple
+from typing import Dict, List, Tuple, Union
 
+import pandas as pd
+import sklearn.model_selection
 from PIL import Image  # pip install pillow
 
+SEED = 43  # Random seed to use when splitting train/test sets.
+TESTSET_SIZE = 0.2
 
-def get_categories(folders: List[Path]):
+
+def get_categories(df: pd.DataFrame):
     """
     Categories look like this:
     { "id": 0, "name": "gm_f" },
     { "id": 1, "name": "lf_m" }
     """
-    categories = set()
-    for folder in folders:
-        tmp = str(folder).split("/")
-        assert len(tmp) == 2
-        categories.add(tmp[1])
-    categories = sorted(list(categories))
-
-    return [{"id": idx, "name": name} for idx, name in enumerate(categories)]
+    cats = sorted(df["category"].unique().tolist())
+    return [{"id": idx, "name": name} for idx, name in enumerate(cats)]
 
 
 def get_wh(fname: Path) -> Tuple[int, int]:
@@ -27,43 +26,72 @@ def get_wh(fname: Path) -> Tuple[int, int]:
     return im.width, im.height
 
 
-def get_images_and_annotations(categories, fnames: List[Path]):
+def get_images(df: pd.DataFrame):
     """
-    For each files,
-    images:
+    images look lie this:
     { "id": "08-0128", "file_name": "gm_f/08-0128.jpg", "width": 915, "height": 273, "location": "dummy" },
     { "id": "08-0311", "file_name": "lf_m/08-0311.jpg", "width": 1314, "height": 423, "location": "dummy" }
+    """
+    for _, row in df.iterrows():
+        yield dict(
+            id=row["id"],
+            file_name=row["file_name"],
+            width=row["width"],
+            height=row["height"],
+            location=row["location"]
+        )
 
-    annotations:
+
+def get_annotations(df: pd.DataFrame, categories: List[Dict]):
+    """
+    annotations look like this:
     { "id": "08-0128", "image_id": "08-0128", "category_id": 0 },
     { "id": "08-0311", "image_id": "08-0311", "category_id": 1 }
     """
-
-    def as_image_entry(fname: Path):
-        # fname looks like this: data/toc_m/08-1128.jpg
-        tmp = str(fname).split("/")
-        category = tmp[1]
-        id = fname.stem
-        width, height = get_wh(fname)
-        return {"id": id, "file_name": f"{category}/{fname.name}", "width": width, "height": height, "location": "dummy", "_category": category}
-
-    def as_annotation(x: dict, lut: dict):
-        return { "id": x["id"], "image_id": x["id"], "category_id": lut[x["_category"]] }
-
-    # make cat_str to cat_it lookup table
     lut = {item["name"]: item["id"] for item in categories}
+    for id, cat_str in zip(df["id"], df["category"]):
+        yield dict(id=id, image_id=id, category_id=lut[cat_str])
 
-    images = []
-    annotations = []
-    images = [as_image_entry(x) for x in fnames]
-    annotations = [as_annotation(x, lut) for x in images]
-    return images, annotations
+
+def make_df(files: List[Path]):
+
+    def yield_rows(files: List[Path]):
+        for fname in files:
+            tmp = str(fname).split("/")
+            category = tmp[1]
+            id = fname.stem
+            width, height = get_wh(fname)
+            yield dict(
+                id=id,
+                file_name=f"{category}/{fname.name}",
+                width=width,
+                height=height,
+                category=category
+            )
+
+    return pd.DataFrame(columns=["id", "file_name", "width", "height", "category"], data=yield_rows(files))
+
+
+def split_train_test(df: pd.DataFrame, random_state: int, test_size: Union[float, int]) -> pd.DataFrame:
+    _df_train, df_test = sklearn.model_selection.train_test_split(df, random_state=SEED, test_size=TESTSET_SIZE, stratify=df["category"])
+    df["location"] = "train"  # Initially set everyting as train set.
+    df.loc[df_test.index, "location"] = "test"
+    return df
 
 
 def make_contents(folders: List[Path], jpg_files: List[Path]):
 
-    categories = get_categories(folders)
-    images, annotations = get_images_and_annotations(categories, jpg_files)
+    # df looks like this after creation:
+    #           id          file_name  width  height category
+    # 0    08-0128   gm_f/08-0128.jpg    915     273     gm_f
+    # 1    08-0189   gm_f/08-0189.jpg   1041     342     gm_f
+    # 2    08-0370   gm_f/08-0370.jpg   1059     279     gm_f
+    # 3    08-0377   gm_f/08-0377.jpg    927     243     gm_f
+    # 4    08-0382   gm_f/08-0382.jpg   1023     282     gm_f
+    df = make_df(jpg_files)
+    df = split_train_test(df, random_state=SEED, test_size=TESTSET_SIZE)  # Create location column
+
+    categories = get_categories(df)
 
     contents = {
         "info": {
@@ -73,8 +101,8 @@ def make_contents(folders: List[Path], jpg_files: List[Path]):
             "contributor": "Deokjin Joo, Ye-seul Kwan, Jongwoo Song, Catarina Pinho, Jody Hey and Yong-Jin Won"
         },
         "categories": categories,
-        "images": images,
-        "annotations": annotations
+        "images": list(get_images(df)),
+        "annotations": list(get_annotations(df, categories))
     }
     return contents
 

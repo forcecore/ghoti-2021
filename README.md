@@ -380,3 +380,391 @@ WARNING: No images were written to tfrecords!
 
 프로그래밍적으로 하는 방법이 있고 그 방법을 추천한다.
 11_make_json.py 를 실행하면 된다.
+그리고 preprocess 재실행.
+
+### Dataset Statistics
+
+```
+$ ./21_dataset_stats.sh
+loading annotations into memory...
+Done (t=0.00s)
+creating index...
+index created!
+Statistics of the training split:
+Locations used:
+[]
+In total 12 classes and 0 images.
+Classes with one or more images: 0
+Images per class:
+ID    Name            Image count
+    0 gm_f                      0
+    1 lf_m                      0
+    2 mv_f                      0
+    3 pe_m                      0
+    4 pf_f                      0
+    5 pg_f                      0
+    6 tg_f                      0
+    7 tg_m                      0
+    8 tm_f                      0
+    9 tm_m                      0
+   10 toc_f                     0
+   11 toc_m                     0
+
+
+Statistics of the testing split:
+Locations used:
+['dummy']
+In total 12 classes and 644 images.
+Classes with one or more images: 12
+Images per class:
+ID    Name            Image count
+    0 gm_f                     13
+    1 lf_m                     12
+    2 mv_f                     11
+    3 pe_m                     37
+    4 pf_f                     11
+    5 pg_f                     26
+    6 tg_f                    192
+    7 tg_m                    100
+    8 tm_f                     24
+    9 tm_m                     17
+   10 toc_f                   122
+   11 toc_m                    79
+```
+
+문제가 있다. training set이 비어있다!
+Training/test set나누는 기준이 location 값을 사용한다.
+Location을 이용해서 알아서 train/test set을 우리가 손으로 나눠야 할 것으로 보인다.
+Dataset 나누기를 training시에 online으로 하지 않으니 우리가 손으로 하는 것도 이상하진 않음...
+11_make_json을 수정해서 location=train, location=test 양분을 했다.
+물론 클래스에 대한 빈도수가 train/test 수가 같도록 신경써서 나눠야 한다. (용어는 stratify...)
+
+### make_classfication_dataset.py 수정
+
+location에 의해 train/test 분할을 하긴 하는데, 어떤 것이 테스트고 어떤 것이 train인지 구분을 지정할 수 없다.
+스크립트에 직접 손을 대었다.
+
+280행 근처:
+
+```
+# test_locations = sorted(
+#     random.sample(locations, max(1, int(test_fraction * len(locations)))))
+# JOO: train_locations = sorted(set(locations) - set(test_locations))
+train_locations = ["train"]  # JOO
+test_locations = ["test"]  # JOO
+```
+
+It worked!
+
+```
+Statistics of the training split:
+Locations used:
+['train']
+In total 12 classes and 516 images.
+Classes with one or more images: 12
+Images per class:
+ID    Name            Image count
+    0 gm_f                     10
+    1 lf_m                     10
+    2 mv_f                      9
+    3 pe_m                     28
+    4 pf_f                      9
+    5 pg_f                     21
+    6 tg_f                    153
+    7 tg_m                     81
+    8 tm_f                     19
+    9 tm_m                     14
+   10 toc_f                    97
+   11 toc_m                    65
+
+
+Statistics of the testing split:
+Locations used:
+['test']
+In total 12 classes and 128 images.
+Classes with one or more images: 12
+Images per class:
+ID    Name            Image count
+    0 gm_f                      3
+    1 lf_m                      2
+    2 mv_f                      2
+    3 pe_m                      9
+    4 pf_f                      2
+    5 pg_f                      5
+    6 tg_f                     39
+    7 tg_m                     19
+    8 tm_f                      5
+    9 tm_m                      3
+   10 toc_f                    25
+   11 toc_m                    14
+```
+
+### Training
+
+30_pretrained.sh
+
+```
+PRETRAINED_DIR=`pwd`/pretrained
+mkdir $PRETRAINED_DIR && cd $PRETRAINED_DIR
+wget -O inc4.tar.gz http://download.tensorflow.org/models/inception_v4_2016_09_09.tar.gz
+tar xzf inc4.tar.gz
+```
+
+```
+cd $CAMERATRAPS_DIR/classification/tf-slim/datasets/
+cp cct.py serengeti.py
+```
+
+Uhmmm... 공식 문서가 out of date이다.
+cct.py 그런거 없다.
+CameraTraps/classification/train_classifier.py 이 파일은 있다.
+위에서 inc4.tar.gz를 받았지만 결정적으로 train_classifier.py라든지, 내용물을 보면 EfficientNet으로 된 것으로 보인다.
+Inception v4는 무시하고 (ResNet이 대세인데 inc4라니 마음에 들지 않았다.)
+train_classifier.py 설명을 보면 pretrained flag가 있다든지하여,
+가이드 무시하고 script에 집중하는 것이 좋아보인다.
+무려 torch로 되어있다 ㅎㄷㄷ
+
+### Retry
+
+```
+FileNotFoundError: [Errno 2] No such file or directory: 'mydataset/cropped_coco_style/classification_ds.csv'
+```
+
+이런 에러가 난다. Dataset 만드는 것도 잘 안 된다.
+README로 추정해보면 COCO dataset style이면 다 되는 것 같은데 뭐지?
+코드 전체를 검색해보면 classification_ds.csv가 등장하는 곳은 train_classifier.py 에서뿐이다.
+train_classifier.py는 아무래도 이 git repository에서 실험적으로 누가 만들고 관리하지 않는 파일 같아보인다.
+train_classifier_tf로 시도해도 마찬가지다.
+
+거의 포기했는데 "CameraTraps classification_ds.csv"로 구글링해보니 classification README가 검색된다.
+https://github.com/microsoft/CameraTraps/blob/master/classification/README.md
+
+또 알아듣기 힘든 말만 잔뜩 나온다.
+웬만하면 남의 연구용코드와는 상종하지 않는 편이 좋다.
+(train_classifier_tf에 대한 언급도 나온다. 결국 EfficientNet때문에 PyTorch로 선회했다는 내용이 나온다.
+See? Tensorflow sucks!)
+
+정말 하기 싫은데 마저 해보자.
+
+```
+        dataset_csv_path: str, path to CSV file with columns
+            ['dataset', 'location', 'label'], where label is a comma-delimited
+            list of labels
+```
+
+이런 글을 힌트로하여
+
+run_ghoti/classification_ds.csv:
+
+```
+dataset,location,label,confidence
+ghoti,/home/jdj/work/ghoti-2021/mydataset/cropped_coco_style,ghoti,1.0
+```
+
+이렇게 작성함.
+
+```
+$ ./31_train.sh
+/home/jdj/usr/venv-3.9/lib/python3.9/site-packages/setuptools/distutils_patch.py:25: UserWarning: Distutils was imported before Setuptools. This usage is discouraged and may exhibit undesirable behaviors or errors. Please use Setuptools' objects directly or at least import Setuptools first.
+  warnings.warn(
+Created logdir: /home/jdj/work/ghoti-2021/run_ghoti/20210912_211827
+Creating dataloaders
+Traceback (most recent call last):
+  File "/usr/lib/python3.9/runpy.py", line 197, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.9/runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "/home/jdj/work/ghoti-2021/CameraTraps/classification/train_classifier.py", line 797, in <module>
+    main(dataset_dir=args.dataset_dir,
+  File "/home/jdj/work/ghoti-2021/CameraTraps/classification/train_classifier.py", line 337, in main
+    loaders, label_names = create_dataloaders(
+  File "/home/jdj/work/ghoti-2021/CameraTraps/classification/train_classifier.py", line 145, in create_dataloaders
+    df, label_names, split_to_locs = load_dataset_csv(
+  File "/home/jdj/work/ghoti-2021/CameraTraps/classification/train_utils.py", line 218, in load_dataset_csv
+    with open(label_index_json_path, 'r') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'run_ghoti/label_index.json'
+```
+
+label_index.json은...
+클래스 이름을 담은 JSON 파일인 것으로 보인다.
+~/work/ghoti-2021/mydataset/cropped_coco_style/classlist.txt 를 복사하여
+코드를 대충 참고해서 원하는 형태로 만들었다.
+
+```
+with open(label_index_json_path, 'r') as f:
+  idx_to_label = json.load(f)
+label_names = [idx_to_label[str(i)] for i in range(len(idx_to_label))]
+label_to_idx = {label: idx for idx, label in enumerate(label_names)}
+```
+
+이런 코드를 보니
+
+```
+{
+    "0": "gm_f",
+    "1": "lf_m",
+    "2": "mv_f",
+    "3": "pe_m",
+    "4": "pf_f",
+    "5": "pg_f",
+    "6": "tg_f",
+    "7": "tg_m",
+    "8": "tm_f",
+    "9": "tm_m",
+    "10": "toc_f",
+    "11": "toc_m"
+}
+```
+
+label_index.json 은 이렇게 생겨야 할것이라고 유추가 가능했다.
+내공이 많이 필요한 작업임.
+
+```
+    df['label_index'] = df['label'].map(label_to_idx.__getitem__)
+  File "/home/jdj/usr/venv-3.9/lib/python3.9/site-packages/pandas/core/series.py", line 4160, in map
+    new_values = super()._map_values(arg, na_action=na_action)
+  File "/home/jdj/usr/venv-3.9/lib/python3.9/site-packages/pandas/core/base.py", line 870, in _map_values
+    new_values = map_f(values, mapper)
+  File "pandas/_libs/lib.pyx", line 2859, in pandas._libs.lib.map_infer
+KeyError: 'ghoti'
+```
+
+돌아가는 꼴을 보아하니 JSON으로 만들었던 것을 csv로 만들어야 할 것 같다.
+그렇게 판단하는 이유는?
+csv의 label column을 label_index.json 에서 읽은 정보를 바탕으로 숫자로 변환하는 코드에서 에러가 났기 때문인데,
+그 내용물이 ghoti라고함은 우리가 아까 만들었던 classification_ds.csv 파일 안에 넣은 내용이기 때문이다.
+
+run_ghoti/classification_ds.csv 내용을 다시 보면.
+label마다 dataset이 있는데...
+그러면 아까 만든 dataset은 무용지물이고,
+dataset이란게 뭔지도 모르겠다 이제.
+코드를 봐도 COCO인지 뭔지 나오지도 않는다.
+
+https://github.com/microsoft/CameraTraps/issues/259
+
+결국 못해먹겠다고 issue를 남겼다. 그리고 댓글도 아주 빨리 받을 수 있었다.
+
+```
+Great question, and sorry for the confusion. I've updated the text on the main page to clarify what I'm about to say here...
+
+We don't have a ready-to-go pipeline for classifier training, as the vast majority of our work is focused on MegaDetector. There are two frameworks for training classifiers in the "classification" folder, both likely-less-than-helpful-for-you for different reasons:
+
+The main classification framework (described in the main README) is up to date, but depends on an internal database of labeled images (referred to in the documentation as "MegaDB").
+The tutorial you referred to is completely standalone, but uses what are now obsolete dependencies.
+If you are looking to train species classifiers, here are a few general paths you might go down, depending on your scenario:
+
+If you want to use MegaDetector to generate crops, and train your classifier just on cropped animals, you can...
+Run MegaDetector, use crop_detections.py to extract crops as individual images, then use whatever your favorite ML framework/tutorial is to train a classifier.
+Use our current classification framework, but modify it to read labels from somewhere other than our internal database (which would still allow you to use, e.g., our inference and scoring tools). We are unlikely to be able to take this on as a project, but would welcome contributions that decouple our classification framework from MegaDB.
+Modernize the older tutorial for standalone classifier training. Again, we would welcome this as a contribution to the repo.
+If you want to train a classifier on whole images (rather than crops), you probably won't derive much benefit from the tools we have here.
+Whichever way you proceed, one thing you may find useful from our repo is the MegaDetector batch API output format, which has a defined schema for classification results. Some OSS camera trap image review tools - for example, Timelapse - know how to read this format; this is how users interact with results of the classifiers we train.
+
+Hope that helps, and thanks for reminder to clarify this outdated information on the main page.
+
+Thanks!
+
+-Dan
+```
+
+결국 out of date인 것이 맞고 we welcome your contribution이라고 한다.
+
+## Starting From Scratch
+
+PyTorch tutorial에서 가장 유사한 예제에서 출발하는 것을 추천한다.
+한편 PyTorch Lightning framework에서 작업하는 것이 코딩해야 할 양이 줄어들어서 더욱 추천된다.
+
+### Define Lightning Module
+
+https://pytorch-lightning.readthedocs.io/en/latest/starter/new-project.html
+
+```
+class LitAutoEncoder(pl.LightningModule):
+    def __init__(self):
+        super().__init__()
+        self.encoder = nn.Sequential(nn.Linear(28 * 28, 64), nn.ReLU(), nn.Linear(64, 3))
+        self.decoder = nn.Sequential(nn.Linear(3, 64), nn.ReLU(), nn.Linear(64, 28 * 28))
+
+    def forward(self, x):
+        # in lightning, forward defines the prediction/inference actions
+        embedding = self.encoder(x)
+        return embedding
+
+    def training_step(self, batch, batch_idx):
+        # training_step defined the train loop.
+        # It is independent of forward
+        x, y = batch
+        x = x.view(x.size(0), -1)
+        z = self.encoder(x)
+        x_hat = self.decoder(z)
+        loss = F.mse_loss(x_hat, x)
+        # Logging to TensorBoard by default
+        self.log("train_loss", loss)
+        return loss
+
+    def configure_optimizers(self):
+        optimizer = torch.optim.Adam(self.parameters(), lr=1e-3)
+        return optimizer
+```
+
+이걸 보자.
+튜토리얼대로 하면 금방 만들 수 있는 편이다.
+게다가 이전에 COCO style dataset으로 다행히도 만들어두었고, 이를 활용 가능하다.
+
+```
+dataset = torchvision.datasets.CocoDetection(
+    root="mydataset/cropped_coco_style",
+    annFile="mydataset/cropped_coco_style/train.json",
+    transform=torchvision.transforms.ToTensor()
+)
+```
+
+이렇게.
+
+```
+    net = MyResnet()
+
+    train_dataset = torchvision.datasets.CocoDetection(
+        root="mydataset/cropped_coco_style",
+        annFile="mydataset/cropped_coco_style/train.json",
+        transform=torchvision.transforms.ToTensor()
+    )
+
+    # for x, y in dataset:
+    #     print(x.shape)
+    #     print(y)
+    # print(len(dataset))
+    # x: torch.Size([3, 440, 1320])
+    # y: [{'id': 639, 'image_id': 639, 'category_id': 7}]
+
+    train_loader = DataLoader(train_dataset)
+    trainer = pl.Trainer()
+    trainer.fit(net, train_loader)
+```
+
+실행해보면
+
+```
+  File "/home/jdj/work/ghoti-2021/ghoti/model.py", line 9, in __init__
+    self.resnet = torch.hub.load('pytorch/vision:v0.10.0', 'resnet50', pretrained=True)
+
+urllib.error.HTTPError: HTTP Error 403: rate limit exceeded
+```
+
+여기서가 이런 에러가 나오면서 문제가 발생한다.
+쉬운 게 없다.
+torch.hub.load + 에러메시지로 구글링 해보면 아직 진행중인 버그이며 (https://github.com/pytorch/vision/issues/4156)
+walk-around는
+
+```
+model = torchvision.models.densenet121(pretrained=True, progress=True)
+```
+
+이런 식으로 모델을 불러오라는 것이다.
+우린
+
+```
+self.resnet = torchvision.models.resnet50(pretrained=True, progress=True)
+```
+
+이렇게 변경했다.

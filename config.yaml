@@ -1,0 +1,9 @@
+test_ratio: 0.1  # Ratio of test set
+dataset_root: ./data
+nn_input_size: 224
+
+batch_size: 64
+num_workers: 4
+max_epochs: 1000
+patience: 50
+ngpus: 1

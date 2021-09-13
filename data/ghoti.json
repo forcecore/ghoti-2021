@@ -61,4752 +61,4158 @@
       "file_name": "gm_f/08-0128.jpg",
       "width": 915,
       "height": 273,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-0189",
       "file_name": "gm_f/08-0189.jpg",
       "width": 1041,
       "height": 342,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "test"
     },
     {
       "id": "08-0370",
       "file_name": "gm_f/08-0370.jpg",
       "width": 1059,
       "height": 279,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-0377",
       "file_name": "gm_f/08-0377.jpg",
       "width": 927,
       "height": 243,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-0382",
       "file_name": "gm_f/08-0382.jpg",
       "width": 1023,
       "height": 282,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-0509",
       "file_name": "gm_f/08-0509.jpg",
       "width": 1095,
       "height": 300,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "test"
     },
     {
       "id": "08-0814",
       "file_name": "gm_f/08-0814.jpg",
       "width": 1032,
       "height": 276,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-1003",
       "file_name": "gm_f/08-1003.jpg",
       "width": 1060,
       "height": 320,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-1060",
       "file_name": "gm_f/08-1060.jpg",
       "width": 1168,
       "height": 296,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-1299",
       "file_name": "gm_f/08-1299.jpg",
       "width": 1056,
       "height": 328,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-1406",
       "file_name": "gm_f/08-1406.jpg",
       "width": 1060,
       "height": 356,
-      "location": "dummy",
-      "_category": "gm_f"
+      "location": "train"
     },
     {
       "id": "08-0311",
       "file_name": "lf_m/08-0311.jpg",
       "width": 1314,
       "height": 423,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "test"
     },
     {
       "id": "08-0314",
       "file_name": "lf_m/08-0314.jpg",
       "width": 1281,
       "height": 450,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-0319",
       "file_name": "lf_m/08-0319.jpg",
       "width": 1236,
       "height": 414,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-0347",
       "file_name": "lf_m/08-0347.jpg",
       "width": 1209,
       "height": 378,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-0888",
       "file_name": "lf_m/08-0888.jpg",
       "width": 1504,
       "height": 504,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-0889",
       "file_name": "lf_m/08-0889.jpg",
       "width": 1272,
       "height": 440,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-0898",
       "file_name": "lf_m/08-0898.jpg",
       "width": 1524,
       "height": 560,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-0907",
       "file_name": "lf_m/08-0907.jpg",
       "width": 1552,
       "height": 512,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "test"
     },
     {
       "id": "08-0966",
       "file_name": "lf_m/08-0966.jpg",
       "width": 1432,
       "height": 536,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-1047",
       "file_name": "lf_m/08-1047.jpg",
       "width": 1380,
       "height": 456,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-1129",
       "file_name": "lf_m/08-1129.jpg",
       "width": 1364,
       "height": 468,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-1204",
       "file_name": "lf_m/08-1204.jpg",
       "width": 1436,
       "height": 524,
-      "location": "dummy",
-      "_category": "lf_m"
+      "location": "train"
     },
     {
       "id": "08-0305",
       "file_name": "mv_f/08-0305.jpg",
       "width": 924,
       "height": 303,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-0324",
       "file_name": "mv_f/08-0324.jpg",
       "width": 813,
       "height": 261,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-0336",
       "file_name": "mv_f/08-0336.jpg",
       "width": 933,
       "height": 312,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "test"
     },
     {
       "id": "08-0337",
       "file_name": "mv_f/08-0337.jpg",
       "width": 822,
       "height": 285,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "test"
     },
     {
       "id": "08-0341",
       "file_name": "mv_f/08-0341.jpg",
       "width": 972,
       "height": 303,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-0352",
       "file_name": "mv_f/08-0352.jpg",
       "width": 876,
       "height": 303,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-0357",
       "file_name": "mv_f/08-0357.jpg",
       "width": 822,
       "height": 258,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-0827",
       "file_name": "mv_f/08-0827.jpg",
       "width": 903,
       "height": 327,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-0918",
       "file_name": "mv_f/08-0918.jpg",
       "width": 952,
       "height": 340,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-1218",
       "file_name": "mv_f/08-1218.jpg",
       "width": 996,
       "height": 328,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-1225",
       "file_name": "mv_f/08-1225.jpg",
       "width": 936,
       "height": 344,
-      "location": "dummy",
-      "_category": "mv_f"
+      "location": "train"
     },
     {
       "id": "08-0102",
       "file_name": "pe_m/08-0102.jpg",
       "width": 876,
       "height": 267,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "test"
     },
     {
       "id": "08-0108",
       "file_name": "pe_m/08-0108.jpg",
       "width": 999,
       "height": 336,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0115",
       "file_name": "pe_m/08-0115.jpg",
       "width": 909,
       "height": 267,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "test"
     },
     {
       "id": "08-0118",
       "file_name": "pe_m/08-0118.jpg",
       "width": 888,
       "height": 291,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0123",
       "file_name": "pe_m/08-0123.jpg",
       "width": 909,
       "height": 267,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0127",
       "file_name": "pe_m/08-0127.jpg",
       "width": 819,
       "height": 240,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0221",
       "file_name": "pe_m/08-0221.jpg",
       "width": 828,
       "height": 252,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0333",
       "file_name": "pe_m/08-0333.jpg",
       "width": 1029,
       "height": 336,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0621",
       "file_name": "pe_m/08-0621.jpg",
       "width": 864,
       "height": 258,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0654",
       "file_name": "pe_m/08-0654.jpg",
       "width": 1008,
       "height": 327,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "test"
     },
     {
       "id": "08-0828",
       "file_name": "pe_m/08-0828.jpg",
       "width": 918,
       "height": 282,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "test"
     },
     {
       "id": "08-0847",
       "file_name": "pe_m/08-0847.jpg",
       "width": 813,
       "height": 195,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0850",
       "file_name": "pe_m/08-0850.jpg",
       "width": 939,
       "height": 252,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0910",
       "file_name": "pe_m/08-0910.jpg",
       "width": 892,
       "height": 292,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0919",
       "file_name": "pe_m/08-0919.jpg",
       "width": 1184,
       "height": 344,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0920",
       "file_name": "pe_m/08-0920.jpg",
       "width": 1128,
       "height": 320,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0946",
       "file_name": "pe_m/08-0946.jpg",
       "width": 1064,
       "height": 292,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "test"
     },
     {
       "id": "08-0964",
       "file_name": "pe_m/08-0964.jpg",
       "width": 1088,
       "height": 352,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0967",
       "file_name": "pe_m/08-0967.jpg",
       "width": 1044,
       "height": 296,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0982",
       "file_name": "pe_m/08-0982.jpg",
       "width": 860,
       "height": 272,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1023",
       "file_name": "pe_m/08-1023.jpg",
       "width": 1124,
       "height": 296,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1049",
       "file_name": "pe_m/08-1049.jpg",
       "width": 1040,
       "height": 296,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1070",
       "file_name": "pe_m/08-1070.jpg",
       "width": 1068,
       "height": 308,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1071",
       "file_name": "pe_m/08-1071.jpg",
       "width": 1048,
       "height": 288,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1074",
       "file_name": "pe_m/08-1074.jpg",
       "width": 1084,
       "height": 288,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1120",
       "file_name": "pe_m/08-1120.jpg",
       "width": 1204,
       "height": 376,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1121",
       "file_name": "pe_m/08-1121.jpg",
       "width": 1016,
       "height": 384,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1136",
       "file_name": "pe_m/08-1136.jpg",
       "width": 1024,
       "height": 336,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "test"
     },
     {
       "id": "08-1261",
       "file_name": "pe_m/08-1261.jpg",
       "width": 1084,
       "height": 316,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-1282",
       "file_name": "pe_m/08-1282.jpg",
       "width": 1028,
       "height": 308,
-      "location": "dummy",
-      "_category": "pe_m"
+      "location": "train"
     },
     {
       "id": "08-0100",
       "file_name": "pf_f/08-0100.jpg",
       "width": 1215,
       "height": 483,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0168",
       "file_name": "pf_f/08-0168.jpg",
       "width": 1251,
       "height": 456,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0338",
       "file_name": "pf_f/08-0338.jpg",
       "width": 1146,
       "height": 363,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0350",
       "file_name": "pf_f/08-0350.jpg",
       "width": 1173,
       "height": 423,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "test"
     },
     {
       "id": "08-0405",
       "file_name": "pf_f/08-0405.jpg",
       "width": 867,
       "height": 327,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0446",
       "file_name": "pf_f/08-0446.jpg",
       "width": 1380,
       "height": 534,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0450",
       "file_name": "pf_f/08-0450.jpg",
       "width": 1275,
       "height": 444,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "test"
     },
     {
       "id": "08-0520",
       "file_name": "pf_f/08-0520.jpg",
       "width": 1227,
       "height": 405,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0538",
       "file_name": "pf_f/08-0538.jpg",
       "width": 1074,
       "height": 384,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0554",
       "file_name": "pf_f/08-0554.jpg",
       "width": 1212,
       "height": 399,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0574",
       "file_name": "pf_f/08-0574.jpg",
       "width": 1080,
       "height": 411,
-      "location": "dummy",
-      "_category": "pf_f"
+      "location": "train"
     },
     {
       "id": "08-0022",
       "file_name": "pg_f/08-0022.jpg",
       "width": 1641,
       "height": 579,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0055",
       "file_name": "pg_f/08-0055.jpg",
       "width": 1179,
       "height": 450,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0204",
       "file_name": "pg_f/08-0204.jpg",
       "width": 1095,
       "height": 381,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0242",
       "file_name": "pg_f/08-0242.jpg",
       "width": 1383,
       "height": 495,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0304",
       "file_name": "pg_f/08-0304.jpg",
       "width": 1338,
       "height": 471,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "test"
     },
     {
       "id": "08-0315",
       "file_name": "pg_f/08-0315.jpg",
       "width": 1653,
       "height": 558,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0317",
       "file_name": "pg_f/08-0317.jpg",
       "width": 1335,
       "height": 480,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "test"
     },
     {
       "id": "08-0332",
       "file_name": "pg_f/08-0332.jpg",
       "width": 1404,
       "height": 531,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0342",
       "file_name": "pg_f/08-0342.jpg",
       "width": 1428,
       "height": 468,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0349",
       "file_name": "pg_f/08-0349.jpg",
       "width": 1659,
       "height": 543,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0358",
       "file_name": "pg_f/08-0358.jpg",
       "width": 1677,
       "height": 555,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0359",
       "file_name": "pg_f/08-0359.jpg",
       "width": 1392,
       "height": 480,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0360",
       "file_name": "pg_f/08-0360.jpg",
       "width": 1248,
       "height": 408,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "test"
     },
     {
       "id": "08-0362",
       "file_name": "pg_f/08-0362.jpg",
       "width": 1287,
       "height": 438,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0367",
       "file_name": "pg_f/08-0367.jpg",
       "width": 1425,
       "height": 516,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0369",
       "file_name": "pg_f/08-0369.jpg",
       "width": 1401,
       "height": 486,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0371",
       "file_name": "pg_f/08-0371.jpg",
       "width": 1368,
       "height": 471,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0373",
       "file_name": "pg_f/08-0373.jpg",
       "width": 1371,
       "height": 456,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0374",
       "file_name": "pg_f/08-0374.jpg",
       "width": 1479,
       "height": 510,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0375",
       "file_name": "pg_f/08-0375.jpg",
       "width": 1251,
       "height": 432,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "test"
     },
     {
       "id": "08-0380",
       "file_name": "pg_f/08-0380.jpg",
       "width": 1128,
       "height": 366,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0534",
       "file_name": "pg_f/08-0534.jpg",
       "width": 1437,
       "height": 489,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "test"
     },
     {
       "id": "08-0544",
       "file_name": "pg_f/08-0544.jpg",
       "width": 1560,
       "height": 495,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0600",
       "file_name": "pg_f/08-0600.jpg",
       "width": 1380,
       "height": 441,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0608",
       "file_name": "pg_f/08-0608.jpg",
       "width": 1641,
       "height": 474,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0768",
       "file_name": "pg_f/08-0768.jpg",
       "width": 1413,
       "height": 447,
-      "location": "dummy",
-      "_category": "pg_f"
+      "location": "train"
     },
     {
       "id": "08-0006",
       "file_name": "tg_f/08-0006.jpg",
       "width": 1248,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0007",
       "file_name": "tg_f/08-0007.jpg",
       "width": 1164,
       "height": 405,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0013",
       "file_name": "tg_f/08-0013.jpg",
       "width": 1011,
       "height": 396,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0017",
       "file_name": "tg_f/08-0017.jpg",
       "width": 1155,
       "height": 372,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0024",
       "file_name": "tg_f/08-0024.jpg",
       "width": 1251,
       "height": 417,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0027",
       "file_name": "tg_f/08-0027.jpg",
       "width": 1242,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0030",
       "file_name": "tg_f/08-0030.jpg",
       "width": 1104,
       "height": 351,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0031",
       "file_name": "tg_f/08-0031.jpg",
       "width": 1029,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0033",
       "file_name": "tg_f/08-0033.jpg",
       "width": 978,
       "height": 321,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0037",
       "file_name": "tg_f/08-0037.jpg",
       "width": 1239,
       "height": 432,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0039",
       "file_name": "tg_f/08-0039.jpg",
       "width": 1236,
       "height": 429,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0040",
       "file_name": "tg_f/08-0040.jpg",
       "width": 1293,
       "height": 465,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0042",
       "file_name": "tg_f/08-0042.jpg",
       "width": 1146,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0043",
       "file_name": "tg_f/08-0043.jpg",
       "width": 1221,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0045",
       "file_name": "tg_f/08-0045.jpg",
       "width": 1230,
       "height": 477,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0049",
       "file_name": "tg_f/08-0049.jpg",
       "width": 1071,
       "height": 354,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0053",
       "file_name": "tg_f/08-0053.jpg",
       "width": 1020,
       "height": 321,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0056",
       "file_name": "tg_f/08-0056.jpg",
       "width": 1245,
       "height": 387,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0063",
       "file_name": "tg_f/08-0063.jpg",
       "width": 1095,
       "height": 396,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0064",
       "file_name": "tg_f/08-0064.jpg",
       "width": 1173,
       "height": 417,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0083",
       "file_name": "tg_f/08-0083.jpg",
       "width": 1128,
       "height": 444,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0092",
       "file_name": "tg_f/08-0092.jpg",
       "width": 1182,
       "height": 459,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0097",
       "file_name": "tg_f/08-0097.jpg",
       "width": 1089,
       "height": 357,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0101",
       "file_name": "tg_f/08-0101.jpg",
       "width": 1146,
       "height": 435,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0107",
       "file_name": "tg_f/08-0107.jpg",
       "width": 1131,
       "height": 390,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0114",
       "file_name": "tg_f/08-0114.jpg",
       "width": 1002,
       "height": 333,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0117",
       "file_name": "tg_f/08-0117.jpg",
       "width": 1167,
       "height": 336,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0120",
       "file_name": "tg_f/08-0120.jpg",
       "width": 909,
       "height": 327,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0126",
       "file_name": "tg_f/08-0126.jpg",
       "width": 1017,
       "height": 303,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0165",
       "file_name": "tg_f/08-0165.jpg",
       "width": 1161,
       "height": 417,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0170",
       "file_name": "tg_f/08-0170.jpg",
       "width": 1326,
       "height": 495,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0180",
       "file_name": "tg_f/08-0180.jpg",
       "width": 999,
       "height": 366,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0184",
       "file_name": "tg_f/08-0184.jpg",
       "width": 1158,
       "height": 435,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0190",
       "file_name": "tg_f/08-0190.jpg",
       "width": 1086,
       "height": 414,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0192",
       "file_name": "tg_f/08-0192.jpg",
       "width": 1086,
       "height": 330,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0197",
       "file_name": "tg_f/08-0197.jpg",
       "width": 1149,
       "height": 471,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0198",
       "file_name": "tg_f/08-0198.jpg",
       "width": 1140,
       "height": 417,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0207",
       "file_name": "tg_f/08-0207.jpg",
       "width": 1002,
       "height": 336,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0208",
       "file_name": "tg_f/08-0208.jpg",
       "width": 1059,
       "height": 342,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0210",
       "file_name": "tg_f/08-0210.jpg",
       "width": 990,
       "height": 336,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0212",
       "file_name": "tg_f/08-0212.jpg",
       "width": 1164,
       "height": 444,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0213",
       "file_name": "tg_f/08-0213.jpg",
       "width": 987,
       "height": 345,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0218",
       "file_name": "tg_f/08-0218.jpg",
       "width": 1032,
       "height": 336,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0243",
       "file_name": "tg_f/08-0243.jpg",
       "width": 1380,
       "height": 522,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0246",
       "file_name": "tg_f/08-0246.jpg",
       "width": 1128,
       "height": 357,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0247",
       "file_name": "tg_f/08-0247.jpg",
       "width": 1125,
       "height": 372,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0248",
       "file_name": "tg_f/08-0248.jpg",
       "width": 1209,
       "height": 408,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0249",
       "file_name": "tg_f/08-0249.jpg",
       "width": 1245,
       "height": 441,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0252",
       "file_name": "tg_f/08-0252.jpg",
       "width": 1011,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0255",
       "file_name": "tg_f/08-0255.jpg",
       "width": 1188,
       "height": 393,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0259",
       "file_name": "tg_f/08-0259.jpg",
       "width": 1041,
       "height": 351,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0265",
       "file_name": "tg_f/08-0265.jpg",
       "width": 1077,
       "height": 333,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0275",
       "file_name": "tg_f/08-0275.jpg",
       "width": 1047,
       "height": 375,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0279",
       "file_name": "tg_f/08-0279.jpg",
       "width": 1176,
       "height": 390,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0285",
       "file_name": "tg_f/08-0285.jpg",
       "width": 1128,
       "height": 423,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0290",
       "file_name": "tg_f/08-0290.jpg",
       "width": 1125,
       "height": 378,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0291",
       "file_name": "tg_f/08-0291.jpg",
       "width": 1011,
       "height": 327,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0293",
       "file_name": "tg_f/08-0293.jpg",
       "width": 1086,
       "height": 318,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0296",
       "file_name": "tg_f/08-0296.jpg",
       "width": 1125,
       "height": 366,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0310",
       "file_name": "tg_f/08-0310.jpg",
       "width": 1053,
       "height": 369,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0329",
       "file_name": "tg_f/08-0329.jpg",
       "width": 1017,
       "height": 375,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0395",
       "file_name": "tg_f/08-0395.jpg",
       "width": 1140,
       "height": 396,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0399",
       "file_name": "tg_f/08-0399.jpg",
       "width": 1095,
       "height": 375,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0408",
       "file_name": "tg_f/08-0408.jpg",
       "width": 1065,
       "height": 462,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0412",
       "file_name": "tg_f/08-0412.jpg",
       "width": 1122,
       "height": 381,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0417",
       "file_name": "tg_f/08-0417.jpg",
       "width": 1185,
       "height": 444,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0418",
       "file_name": "tg_f/08-0418.jpg",
       "width": 1128,
       "height": 351,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0430",
       "file_name": "tg_f/08-0430.jpg",
       "width": 1131,
       "height": 372,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0431",
       "file_name": "tg_f/08-0431.jpg",
       "width": 1128,
       "height": 345,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0436",
       "file_name": "tg_f/08-0436.jpg",
       "width": 951,
       "height": 258,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0440",
       "file_name": "tg_f/08-0440.jpg",
       "width": 1008,
       "height": 315,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0445",
       "file_name": "tg_f/08-0445.jpg",
       "width": 1029,
       "height": 330,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0447",
       "file_name": "tg_f/08-0447.jpg",
       "width": 1221,
       "height": 432,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0448",
       "file_name": "tg_f/08-0448.jpg",
       "width": 1263,
       "height": 441,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0453",
       "file_name": "tg_f/08-0453.jpg",
       "width": 1155,
       "height": 360,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0457",
       "file_name": "tg_f/08-0457.jpg",
       "width": 1158,
       "height": 366,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0459",
       "file_name": "tg_f/08-0459.jpg",
       "width": 1350,
       "height": 468,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0469",
       "file_name": "tg_f/08-0469.jpg",
       "width": 1074,
       "height": 345,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0470",
       "file_name": "tg_f/08-0470.jpg",
       "width": 1137,
       "height": 360,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0471",
       "file_name": "tg_f/08-0471.jpg",
       "width": 810,
       "height": 267,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0475",
       "file_name": "tg_f/08-0475.jpg",
       "width": 1011,
       "height": 303,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0476",
       "file_name": "tg_f/08-0476.jpg",
       "width": 1179,
       "height": 342,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0478",
       "file_name": "tg_f/08-0478.jpg",
       "width": 1122,
       "height": 372,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0482",
       "file_name": "tg_f/08-0482.jpg",
       "width": 1155,
       "height": 378,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0485",
       "file_name": "tg_f/08-0485.jpg",
       "width": 1041,
       "height": 327,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0506",
       "file_name": "tg_f/08-0506.jpg",
       "width": 1098,
       "height": 348,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0517",
       "file_name": "tg_f/08-0517.jpg",
       "width": 1149,
       "height": 345,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0523",
       "file_name": "tg_f/08-0523.jpg",
       "width": 1197,
       "height": 378,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0545",
       "file_name": "tg_f/08-0545.jpg",
       "width": 945,
       "height": 306,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0566",
       "file_name": "tg_f/08-0566.jpg",
       "width": 1155,
       "height": 381,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0567",
       "file_name": "tg_f/08-0567.jpg",
       "width": 1170,
       "height": 345,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0570",
       "file_name": "tg_f/08-0570.jpg",
       "width": 780,
       "height": 297,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0583",
       "file_name": "tg_f/08-0583.jpg",
       "width": 1002,
       "height": 333,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0584",
       "file_name": "tg_f/08-0584.jpg",
       "width": 1182,
       "height": 348,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0587",
       "file_name": "tg_f/08-0587.jpg",
       "width": 1161,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0589",
       "file_name": "tg_f/08-0589.jpg",
       "width": 747,
       "height": 213,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0590",
       "file_name": "tg_f/08-0590.jpg",
       "width": 819,
       "height": 285,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0592",
       "file_name": "tg_f/08-0592.jpg",
       "width": 981,
       "height": 288,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0597",
       "file_name": "tg_f/08-0597.jpg",
       "width": 1128,
       "height": 333,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0601",
       "file_name": "tg_f/08-0601.jpg",
       "width": 1158,
       "height": 357,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0602",
       "file_name": "tg_f/08-0602.jpg",
       "width": 996,
       "height": 291,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0606",
       "file_name": "tg_f/08-0606.jpg",
       "width": 1125,
       "height": 372,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0609",
       "file_name": "tg_f/08-0609.jpg",
       "width": 1086,
       "height": 321,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0610",
       "file_name": "tg_f/08-0610.jpg",
       "width": 1098,
       "height": 330,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0613",
       "file_name": "tg_f/08-0613.jpg",
       "width": 1095,
       "height": 321,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0614",
       "file_name": "tg_f/08-0614.jpg",
       "width": 1002,
       "height": 318,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0634",
       "file_name": "tg_f/08-0634.jpg",
       "width": 1101,
       "height": 351,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0645",
       "file_name": "tg_f/08-0645.jpg",
       "width": 1092,
       "height": 345,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0647",
       "file_name": "tg_f/08-0647.jpg",
       "width": 1008,
       "height": 303,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0653",
       "file_name": "tg_f/08-0653.jpg",
       "width": 786,
       "height": 246,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0655",
       "file_name": "tg_f/08-0655.jpg",
       "width": 1098,
       "height": 327,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0668",
       "file_name": "tg_f/08-0668.jpg",
       "width": 1170,
       "height": 405,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0683",
       "file_name": "tg_f/08-0683.jpg",
       "width": 897,
       "height": 261,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0687",
       "file_name": "tg_f/08-0687.jpg",
       "width": 1047,
       "height": 309,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0689",
       "file_name": "tg_f/08-0689.jpg",
       "width": 1170,
       "height": 369,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0710",
       "file_name": "tg_f/08-0710.jpg",
       "width": 894,
       "height": 273,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0762",
       "file_name": "tg_f/08-0762.jpg",
       "width": 1203,
       "height": 396,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0811",
       "file_name": "tg_f/08-0811.jpg",
       "width": 1254,
       "height": 387,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0812",
       "file_name": "tg_f/08-0812.jpg",
       "width": 1350,
       "height": 411,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0815",
       "file_name": "tg_f/08-0815.jpg",
       "width": 975,
       "height": 315,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0817",
       "file_name": "tg_f/08-0817.jpg",
       "width": 1026,
       "height": 306,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0838",
       "file_name": "tg_f/08-0838.jpg",
       "width": 1326,
       "height": 399,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0843",
       "file_name": "tg_f/08-0843.jpg",
       "width": 1119,
       "height": 339,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0872",
       "file_name": "tg_f/08-0872.jpg",
       "width": 1236,
       "height": 436,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-0911",
       "file_name": "tg_f/08-0911.jpg",
       "width": 988,
       "height": 328,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0933",
       "file_name": "tg_f/08-0933.jpg",
       "width": 968,
       "height": 316,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0935",
       "file_name": "tg_f/08-0935.jpg",
       "width": 1192,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0940",
       "file_name": "tg_f/08-0940.jpg",
       "width": 1300,
       "height": 512,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0944",
       "file_name": "tg_f/08-0944.jpg",
       "width": 1320,
       "height": 444,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0955",
       "file_name": "tg_f/08-0955.jpg",
       "width": 1280,
       "height": 424,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0956",
       "file_name": "tg_f/08-0956.jpg",
       "width": 1248,
       "height": 440,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0968",
       "file_name": "tg_f/08-0968.jpg",
       "width": 1248,
       "height": 376,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0973",
       "file_name": "tg_f/08-0973.jpg",
       "width": 1028,
       "height": 320,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0974",
       "file_name": "tg_f/08-0974.jpg",
       "width": 1144,
       "height": 320,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0981",
       "file_name": "tg_f/08-0981.jpg",
       "width": 1316,
       "height": 412,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0987",
       "file_name": "tg_f/08-0987.jpg",
       "width": 992,
       "height": 324,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0990",
       "file_name": "tg_f/08-0990.jpg",
       "width": 1200,
       "height": 376,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0993",
       "file_name": "tg_f/08-0993.jpg",
       "width": 1240,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1007",
       "file_name": "tg_f/08-1007.jpg",
       "width": 1176,
       "height": 352,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1008",
       "file_name": "tg_f/08-1008.jpg",
       "width": 1192,
       "height": 388,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1014",
       "file_name": "tg_f/08-1014.jpg",
       "width": 1264,
       "height": 376,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1017",
       "file_name": "tg_f/08-1017.jpg",
       "width": 1116,
       "height": 336,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1019",
       "file_name": "tg_f/08-1019.jpg",
       "width": 1300,
       "height": 400,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1021",
       "file_name": "tg_f/08-1021.jpg",
       "width": 1224,
       "height": 404,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1025",
       "file_name": "tg_f/08-1025.jpg",
       "width": 1288,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1026",
       "file_name": "tg_f/08-1026.jpg",
       "width": 1220,
       "height": 392,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1027",
       "file_name": "tg_f/08-1027.jpg",
       "width": 1316,
       "height": 452,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1029",
       "file_name": "tg_f/08-1029.jpg",
       "width": 920,
       "height": 328,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1033",
       "file_name": "tg_f/08-1033.jpg",
       "width": 992,
       "height": 312,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1035",
       "file_name": "tg_f/08-1035.jpg",
       "width": 912,
       "height": 308,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1066",
       "file_name": "tg_f/08-1066.jpg",
       "width": 1136,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1082",
       "file_name": "tg_f/08-1082.jpg",
       "width": 1308,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1089",
       "file_name": "tg_f/08-1089.jpg",
       "width": 1204,
       "height": 440,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1099",
       "file_name": "tg_f/08-1099.jpg",
       "width": 1324,
       "height": 432,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1125",
       "file_name": "tg_f/08-1125.jpg",
       "width": 1140,
       "height": 368,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1149",
       "file_name": "tg_f/08-1149.jpg",
       "width": 1020,
       "height": 360,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1168",
       "file_name": "tg_f/08-1168.jpg",
       "width": 1216,
       "height": 448,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1184",
       "file_name": "tg_f/08-1184.jpg",
       "width": 944,
       "height": 352,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1185",
       "file_name": "tg_f/08-1185.jpg",
       "width": 836,
       "height": 372,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1189",
       "file_name": "tg_f/08-1189.jpg",
       "width": 1148,
       "height": 396,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1190",
       "file_name": "tg_f/08-1190.jpg",
       "width": 1024,
       "height": 360,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1205",
       "file_name": "tg_f/08-1205.jpg",
       "width": 1236,
       "height": 404,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1207",
       "file_name": "tg_f/08-1207.jpg",
       "width": 1272,
       "height": 456,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1210",
       "file_name": "tg_f/08-1210.jpg",
       "width": 1164,
       "height": 388,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1211",
       "file_name": "tg_f/08-1211.jpg",
       "width": 1044,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1213",
       "file_name": "tg_f/08-1213.jpg",
       "width": 1104,
       "height": 332,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1214",
       "file_name": "tg_f/08-1214.jpg",
       "width": 1116,
       "height": 356,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1227",
       "file_name": "tg_f/08-1227.jpg",
       "width": 1112,
       "height": 400,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1239",
       "file_name": "tg_f/08-1239.jpg",
       "width": 1168,
       "height": 404,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1245",
       "file_name": "tg_f/08-1245.jpg",
       "width": 872,
       "height": 348,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1246",
       "file_name": "tg_f/08-1246.jpg",
       "width": 1088,
       "height": 388,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1251",
       "file_name": "tg_f/08-1251.jpg",
       "width": 1212,
       "height": 464,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1278",
       "file_name": "tg_f/08-1278.jpg",
       "width": 1028,
       "height": 356,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1279",
       "file_name": "tg_f/08-1279.jpg",
       "width": 1244,
       "height": 476,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1291",
       "file_name": "tg_f/08-1291.jpg",
       "width": 1192,
       "height": 428,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1318",
       "file_name": "tg_f/08-1318.jpg",
       "width": 1212,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1354",
       "file_name": "tg_f/08-1354.jpg",
       "width": 1148,
       "height": 392,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1365",
       "file_name": "tg_f/08-1365.jpg",
       "width": 1144,
       "height": 388,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1369",
       "file_name": "tg_f/08-1369.jpg",
       "width": 980,
       "height": 340,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1378",
       "file_name": "tg_f/08-1378.jpg",
       "width": 1160,
       "height": 408,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1390",
       "file_name": "tg_f/08-1390.jpg",
       "width": 1144,
       "height": 392,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1394",
       "file_name": "tg_f/08-1394.jpg",
       "width": 1304,
       "height": 456,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1398",
       "file_name": "tg_f/08-1398.jpg",
       "width": 1160,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1402",
       "file_name": "tg_f/08-1402.jpg",
       "width": 1204,
       "height": 492,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1413",
       "file_name": "tg_f/08-1413.jpg",
       "width": 1028,
       "height": 368,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "test"
     },
     {
       "id": "08-1419",
       "file_name": "tg_f/08-1419.jpg",
       "width": 1276,
       "height": 444,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1421",
       "file_name": "tg_f/08-1421.jpg",
       "width": 1108,
       "height": 376,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-1426",
       "file_name": "tg_f/08-1426.jpg",
       "width": 784,
       "height": 280,
-      "location": "dummy",
-      "_category": "tg_f"
+      "location": "train"
     },
     {
       "id": "08-0005",
       "file_name": "tg_m/08-0005.jpg",
       "width": 1149,
       "height": 408,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0065",
       "file_name": "tg_m/08-0065.jpg",
       "width": 1361,
       "height": 435,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0074",
       "file_name": "tg_m/08-0074.jpg",
       "width": 1158,
       "height": 399,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0088",
       "file_name": "tg_m/08-0088.jpg",
       "width": 1350,
       "height": 468,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0089",
       "file_name": "tg_m/08-0089.jpg",
       "width": 1260,
       "height": 426,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0099",
       "file_name": "tg_m/08-0099.jpg",
       "width": 1260,
       "height": 450,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0111",
       "file_name": "tg_m/08-0111.jpg",
       "width": 1197,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0164",
       "file_name": "tg_m/08-0164.jpg",
       "width": 1290,
       "height": 615,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0262",
       "file_name": "tg_m/08-0262.jpg",
       "width": 1230,
       "height": 390,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0268",
       "file_name": "tg_m/08-0268.jpg",
       "width": 1338,
       "height": 414,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0276",
       "file_name": "tg_m/08-0276.jpg",
       "width": 1290,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0278",
       "file_name": "tg_m/08-0278.jpg",
       "width": 1284,
       "height": 414,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0344",
       "file_name": "tg_m/08-0344.jpg",
       "width": 1245,
       "height": 405,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0406",
       "file_name": "tg_m/08-0406.jpg",
       "width": 1200,
       "height": 429,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0414",
       "file_name": "tg_m/08-0414.jpg",
       "width": 1284,
       "height": 453,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0422",
       "file_name": "tg_m/08-0422.jpg",
       "width": 1230,
       "height": 387,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0433",
       "file_name": "tg_m/08-0433.jpg",
       "width": 1272,
       "height": 405,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0451",
       "file_name": "tg_m/08-0451.jpg",
       "width": 1095,
       "height": 354,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0455",
       "file_name": "tg_m/08-0455.jpg",
       "width": 1152,
       "height": 390,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0456",
       "file_name": "tg_m/08-0456.jpg",
       "width": 1191,
       "height": 423,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0462",
       "file_name": "tg_m/08-0462.jpg",
       "width": 1230,
       "height": 444,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0463",
       "file_name": "tg_m/08-0463.jpg",
       "width": 1143,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0465",
       "file_name": "tg_m/08-0465.jpg",
       "width": 1248,
       "height": 393,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0466",
       "file_name": "tg_m/08-0466.jpg",
       "width": 1293,
       "height": 414,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0467",
       "file_name": "tg_m/08-0467.jpg",
       "width": 1266,
       "height": 426,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0468",
       "file_name": "tg_m/08-0468.jpg",
       "width": 1188,
       "height": 369,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0531",
       "file_name": "tg_m/08-0531.jpg",
       "width": 1266,
       "height": 438,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0532",
       "file_name": "tg_m/08-0532.jpg",
       "width": 1257,
       "height": 432,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0536",
       "file_name": "tg_m/08-0536.jpg",
       "width": 1269,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0540",
       "file_name": "tg_m/08-0540.jpg",
       "width": 1269,
       "height": 432,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0579",
       "file_name": "tg_m/08-0579.jpg",
       "width": 1227,
       "height": 378,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0580",
       "file_name": "tg_m/08-0580.jpg",
       "width": 1254,
       "height": 429,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0585",
       "file_name": "tg_m/08-0585.jpg",
       "width": 1302,
       "height": 432,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0593",
       "file_name": "tg_m/08-0593.jpg",
       "width": 1200,
       "height": 375,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0607",
       "file_name": "tg_m/08-0607.jpg",
       "width": 1110,
       "height": 342,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0638",
       "file_name": "tg_m/08-0638.jpg",
       "width": 1236,
       "height": 420,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0640",
       "file_name": "tg_m/08-0640.jpg",
       "width": 1248,
       "height": 411,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0667",
       "file_name": "tg_m/08-0667.jpg",
       "width": 1287,
       "height": 411,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0670",
       "file_name": "tg_m/08-0670.jpg",
       "width": 1026,
       "height": 321,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0675",
       "file_name": "tg_m/08-0675.jpg",
       "width": 1176,
       "height": 357,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0681",
       "file_name": "tg_m/08-0681.jpg",
       "width": 1215,
       "height": 408,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0682",
       "file_name": "tg_m/08-0682.jpg",
       "width": 1353,
       "height": 453,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0685",
       "file_name": "tg_m/08-0685.jpg",
       "width": 1170,
       "height": 366,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0686",
       "file_name": "tg_m/08-0686.jpg",
       "width": 1338,
       "height": 396,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0708",
       "file_name": "tg_m/08-0708.jpg",
       "width": 792,
       "height": 267,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0760",
       "file_name": "tg_m/08-0760.jpg",
       "width": 1128,
       "height": 405,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0763",
       "file_name": "tg_m/08-0763.jpg",
       "width": 1149,
       "height": 345,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0774",
       "file_name": "tg_m/08-0774.jpg",
       "width": 1359,
       "height": 477,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0786",
       "file_name": "tg_m/08-0786.jpg",
       "width": 1176,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0820",
       "file_name": "tg_m/08-0820.jpg",
       "width": 1248,
       "height": 441,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0831",
       "file_name": "tg_m/08-0831.jpg",
       "width": 1362,
       "height": 456,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0839",
       "file_name": "tg_m/08-0839.jpg",
       "width": 1410,
       "height": 438,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0841",
       "file_name": "tg_m/08-0841.jpg",
       "width": 1233,
       "height": 363,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0842",
       "file_name": "tg_m/08-0842.jpg",
       "width": 1320,
       "height": 393,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-0844",
       "file_name": "tg_m/08-0844.jpg",
       "width": 1470,
       "height": 471,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0921",
       "file_name": "tg_m/08-0921.jpg",
       "width": 1172,
       "height": 388,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0952",
       "file_name": "tg_m/08-0952.jpg",
       "width": 1432,
       "height": 452,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0970",
       "file_name": "tg_m/08-0970.jpg",
       "width": 1312,
       "height": 440,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0992",
       "file_name": "tg_m/08-0992.jpg",
       "width": 1300,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0996",
       "file_name": "tg_m/08-0996.jpg",
       "width": 1152,
       "height": 384,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1000",
       "file_name": "tg_m/08-1000.jpg",
       "width": 1400,
       "height": 444,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1009",
       "file_name": "tg_m/08-1009.jpg",
       "width": 1296,
       "height": 396,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-1015",
       "file_name": "tg_m/08-1015.jpg",
       "width": 1384,
       "height": 452,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1036",
       "file_name": "tg_m/08-1036.jpg",
       "width": 876,
       "height": 344,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1038",
       "file_name": "tg_m/08-1038.jpg",
       "width": 1464,
       "height": 516,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1041",
       "file_name": "tg_m/08-1041.jpg",
       "width": 1412,
       "height": 476,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1052",
       "file_name": "tg_m/08-1052.jpg",
       "width": 1404,
       "height": 508,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1054",
       "file_name": "tg_m/08-1054.jpg",
       "width": 988,
       "height": 328,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1072",
       "file_name": "tg_m/08-1072.jpg",
       "width": 1132,
       "height": 436,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1075",
       "file_name": "tg_m/08-1075.jpg",
       "width": 1460,
       "height": 528,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1087",
       "file_name": "tg_m/08-1087.jpg",
       "width": 1292,
       "height": 464,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1096",
       "file_name": "tg_m/08-1096.jpg",
       "width": 1440,
       "height": 488,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1133",
       "file_name": "tg_m/08-1133.jpg",
       "width": 1100,
       "height": 300,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-1138",
       "file_name": "tg_m/08-1138.jpg",
       "width": 1268,
       "height": 400,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1148",
       "file_name": "tg_m/08-1148.jpg",
       "width": 1148,
       "height": 404,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-1186",
       "file_name": "tg_m/08-1186.jpg",
       "width": 1216,
       "height": 400,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1194",
       "file_name": "tg_m/08-1194.jpg",
       "width": 984,
       "height": 364,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1199",
       "file_name": "tg_m/08-1199.jpg",
       "width": 1424,
       "height": 564,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1219",
       "file_name": "tg_m/08-1219.jpg",
       "width": 1040,
       "height": 424,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1237",
       "file_name": "tg_m/08-1237.jpg",
       "width": 1208,
       "height": 424,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1274",
       "file_name": "tg_m/08-1274.jpg",
       "width": 972,
       "height": 308,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1352",
       "file_name": "tg_m/08-1352.jpg",
       "width": 1060,
       "height": 412,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1381",
       "file_name": "tg_m/08-1381.jpg",
       "width": 1164,
       "height": 428,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-1389",
       "file_name": "tg_m/08-1389.jpg",
       "width": 1292,
       "height": 488,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1396",
       "file_name": "tg_m/08-1396.jpg",
       "width": 1068,
       "height": 324,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-1408",
       "file_name": "tg_m/08-1408.jpg",
       "width": 1480,
       "height": 500,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1409",
       "file_name": "tg_m/08-1409.jpg",
       "width": 1244,
       "height": 436,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "test"
     },
     {
       "id": "08-1410",
       "file_name": "tg_m/08-1410.jpg",
       "width": 1236,
       "height": 408,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1417",
       "file_name": "tg_m/08-1417.jpg",
       "width": 1336,
       "height": 472,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-1420",
       "file_name": "tg_m/08-1420.jpg",
       "width": 1320,
       "height": 440,
-      "location": "dummy",
-      "_category": "tg_m"
+      "location": "train"
     },
     {
       "id": "08-0032",
       "file_name": "tm_f/08-0032.jpg",
       "width": 1119,
       "height": 381,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0038",
       "file_name": "tm_f/08-0038.jpg",
       "width": 1068,
       "height": 405,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "test"
     },
     {
       "id": "08-0066",
       "file_name": "tm_f/08-0066.jpg",
       "width": 1044,
       "height": 327,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0272",
       "file_name": "tm_f/08-0272.jpg",
       "width": 1134,
       "height": 420,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0282",
       "file_name": "tm_f/08-0282.jpg",
       "width": 981,
       "height": 363,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0286",
       "file_name": "tm_f/08-0286.jpg",
       "width": 1068,
       "height": 405,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0292",
       "file_name": "tm_f/08-0292.jpg",
       "width": 1014,
       "height": 381,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0294",
       "file_name": "tm_f/08-0294.jpg",
       "width": 1044,
       "height": 345,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0330",
       "file_name": "tm_f/08-0330.jpg",
       "width": 1032,
       "height": 381,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "test"
     },
     {
       "id": "08-0413",
       "file_name": "tm_f/08-0413.jpg",
       "width": 1098,
       "height": 435,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0458",
       "file_name": "tm_f/08-0458.jpg",
       "width": 1044,
       "height": 399,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "test"
     },
     {
       "id": "08-0477",
       "file_name": "tm_f/08-0477.jpg",
       "width": 984,
       "height": 324,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0551",
       "file_name": "tm_f/08-0551.jpg",
       "width": 891,
       "height": 324,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "test"
     },
     {
       "id": "08-0581",
       "file_name": "tm_f/08-0581.jpg",
       "width": 966,
       "height": 348,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0591",
       "file_name": "tm_f/08-0591.jpg",
       "width": 1053,
       "height": 360,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0595",
       "file_name": "tm_f/08-0595.jpg",
       "width": 1023,
       "height": 345,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0611",
       "file_name": "tm_f/08-0611.jpg",
       "width": 1176,
       "height": 426,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0618",
       "file_name": "tm_f/08-0618.jpg",
       "width": 999,
       "height": 354,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0629",
       "file_name": "tm_f/08-0629.jpg",
       "width": 954,
       "height": 345,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0699",
       "file_name": "tm_f/08-0699.jpg",
       "width": 981,
       "height": 384,
-      "location": "dummy",
-      "_category": "tm_f"
+      "location": "train"
     },
     {
       "id": "08-0095",
       "file_name": "tm_m/08-0095.jpg",
       "width": 1125,
       "height": 441,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "test"
     },
     {
       "id": "08-0179",
       "file_name": "tm_m/08-0179.jpg",
       "width": 1275,
       "height": 498,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "test"
     },
     {
       "id": "08-0183",
       "file_name": "tm_m/08-0183.jpg",
       "width": 1218,
       "height": 492,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "test"
     },
     {
       "id": "08-0257",
       "file_name": "tm_m/08-0257.jpg",
       "width": 1248,
       "height": 423,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0261",
       "file_name": "tm_m/08-0261.jpg",
       "width": 1272,
       "height": 510,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0427",
       "file_name": "tm_m/08-0427.jpg",
       "width": 1137,
       "height": 408,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0428",
       "file_name": "tm_m/08-0428.jpg",
       "width": 1158,
       "height": 432,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0474",
       "file_name": "tm_m/08-0474.jpg",
       "width": 1173,
       "height": 414,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0486",
       "file_name": "tm_m/08-0486.jpg",
       "width": 1101,
       "height": 369,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0560",
       "file_name": "tm_m/08-0560.jpg",
       "width": 1113,
       "height": 405,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0582",
       "file_name": "tm_m/08-0582.jpg",
       "width": 1080,
       "height": 405,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0588",
       "file_name": "tm_m/08-0588.jpg",
       "width": 1185,
       "height": 411,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0612",
       "file_name": "tm_m/08-0612.jpg",
       "width": 1143,
       "height": 411,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0659",
       "file_name": "tm_m/08-0659.jpg",
       "width": 1215,
       "height": 468,
-      "location": "dummy",
-      "_category": "tm_m"
+      "location": "train"
     },
     {
       "id": "08-0003",
       "file_name": "toc_f/08-0003.jpg",
       "width": 1095,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0035",
       "file_name": "toc_f/08-0035.jpg",
       "width": 1020,
       "height": 375,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0041",
       "file_name": "toc_f/08-0041.jpg",
       "width": 1137,
       "height": 351,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0047",
       "file_name": "toc_f/08-0047.jpg",
       "width": 1134,
       "height": 381,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0050",
       "file_name": "toc_f/08-0050.jpg",
       "width": 987,
       "height": 336,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0054",
       "file_name": "toc_f/08-0054.jpg",
       "width": 1074,
       "height": 402,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0098",
       "file_name": "toc_f/08-0098.jpg",
       "width": 987,
       "height": 393,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0178",
       "file_name": "toc_f/08-0178.jpg",
       "width": 1173,
       "height": 432,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0323",
       "file_name": "toc_f/08-0323.jpg",
       "width": 1113,
       "height": 378,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0328",
       "file_name": "toc_f/08-0328.jpg",
       "width": 1032,
       "height": 324,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0331",
       "file_name": "toc_f/08-0331.jpg",
       "width": 1119,
       "height": 354,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0334",
       "file_name": "toc_f/08-0334.jpg",
       "width": 1053,
       "height": 363,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0335",
       "file_name": "toc_f/08-0335.jpg",
       "width": 1176,
       "height": 387,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0340",
       "file_name": "toc_f/08-0340.jpg",
       "width": 1041,
       "height": 342,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0354",
       "file_name": "toc_f/08-0354.jpg",
       "width": 1104,
       "height": 378,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0361",
       "file_name": "toc_f/08-0361.jpg",
       "width": 1092,
       "height": 369,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0364",
       "file_name": "toc_f/08-0364.jpg",
       "width": 996,
       "height": 324,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0372",
       "file_name": "toc_f/08-0372.jpg",
       "width": 1089,
       "height": 345,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0376",
       "file_name": "toc_f/08-0376.jpg",
       "width": 1092,
       "height": 360,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0378",
       "file_name": "toc_f/08-0378.jpg",
       "width": 999,
       "height": 336,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0384",
       "file_name": "toc_f/08-0384.jpg",
       "width": 1026,
       "height": 321,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0407",
       "file_name": "toc_f/08-0407.jpg",
       "width": 1197,
       "height": 450,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0419",
       "file_name": "toc_f/08-0419.jpg",
       "width": 1113,
       "height": 363,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0421",
       "file_name": "toc_f/08-0421.jpg",
       "width": 816,
       "height": 273,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0424",
       "file_name": "toc_f/08-0424.jpg",
       "width": 1074,
       "height": 387,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0425",
       "file_name": "toc_f/08-0425.jpg",
       "width": 1071,
       "height": 378,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0426",
       "file_name": "toc_f/08-0426.jpg",
       "width": 1200,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0493",
       "file_name": "toc_f/08-0493.jpg",
       "width": 1155,
       "height": 372,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0495",
       "file_name": "toc_f/08-0495.jpg",
       "width": 1122,
       "height": 426,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0499",
       "file_name": "toc_f/08-0499.jpg",
       "width": 1053,
       "height": 399,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0501",
       "file_name": "toc_f/08-0501.jpg",
       "width": 1053,
       "height": 426,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0526",
       "file_name": "toc_f/08-0526.jpg",
       "width": 1020,
       "height": 354,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0599",
       "file_name": "toc_f/08-0599.jpg",
       "width": 1125,
       "height": 360,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0657",
       "file_name": "toc_f/08-0657.jpg",
       "width": 1089,
       "height": 372,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0660",
       "file_name": "toc_f/08-0660.jpg",
       "width": 924,
       "height": 279,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0663",
       "file_name": "toc_f/08-0663.jpg",
       "width": 1125,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0679",
       "file_name": "toc_f/08-0679.jpg",
       "width": 1173,
       "height": 384,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0695",
       "file_name": "toc_f/08-0695.jpg",
       "width": 1098,
       "height": 387,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0696",
       "file_name": "toc_f/08-0696.jpg",
       "width": 1167,
       "height": 402,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0705",
       "file_name": "toc_f/08-0705.jpg",
       "width": 978,
       "height": 318,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0706",
       "file_name": "toc_f/08-0706.jpg",
       "width": 1062,
       "height": 339,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0757",
       "file_name": "toc_f/08-0757.jpg",
       "width": 1218,
       "height": 459,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0758",
       "file_name": "toc_f/08-0758.jpg",
       "width": 1188,
       "height": 396,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0765",
       "file_name": "toc_f/08-0765.jpg",
       "width": 1128,
       "height": 366,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0788",
       "file_name": "toc_f/08-0788.jpg",
       "width": 1104,
       "height": 393,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0805",
       "file_name": "toc_f/08-0805.jpg",
       "width": 1176,
       "height": 402,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0808",
       "file_name": "toc_f/08-0808.jpg",
       "width": 1362,
       "height": 426,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0809",
       "file_name": "toc_f/08-0809.jpg",
       "width": 1128,
       "height": 393,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0823",
       "file_name": "toc_f/08-0823.jpg",
       "width": 1110,
       "height": 480,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0830",
       "file_name": "toc_f/08-0830.jpg",
       "width": 1317,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0832",
       "file_name": "toc_f/08-0832.jpg",
       "width": 924,
       "height": 300,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0834",
       "file_name": "toc_f/08-0834.jpg",
       "width": 1221,
       "height": 396,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0840",
       "file_name": "toc_f/08-0840.jpg",
       "width": 1263,
       "height": 399,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0849",
       "file_name": "toc_f/08-0849.jpg",
       "width": 990,
       "height": 348,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0874",
       "file_name": "toc_f/08-0874.jpg",
       "width": 1028,
       "height": 356,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0886",
       "file_name": "toc_f/08-0886.jpg",
       "width": 1248,
       "height": 484,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0897",
       "file_name": "toc_f/08-0897.jpg",
       "width": 1204,
       "height": 392,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0901",
       "file_name": "toc_f/08-0901.jpg",
       "width": 1152,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0903",
       "file_name": "toc_f/08-0903.jpg",
       "width": 1264,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0913",
       "file_name": "toc_f/08-0913.jpg",
       "width": 1084,
       "height": 348,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0925",
       "file_name": "toc_f/08-0925.jpg",
       "width": 1312,
       "height": 456,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0927",
       "file_name": "toc_f/08-0927.jpg",
       "width": 1064,
       "height": 328,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0941",
       "file_name": "toc_f/08-0941.jpg",
       "width": 1272,
       "height": 404,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0945",
       "file_name": "toc_f/08-0945.jpg",
       "width": 1200,
       "height": 392,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0947",
       "file_name": "toc_f/08-0947.jpg",
       "width": 1152,
       "height": 412,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0951",
       "file_name": "toc_f/08-0951.jpg",
       "width": 1200,
       "height": 400,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0953",
       "file_name": "toc_f/08-0953.jpg",
       "width": 1216,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-0958",
       "file_name": "toc_f/08-0958.jpg",
       "width": 1128,
       "height": 352,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0969",
       "file_name": "toc_f/08-0969.jpg",
       "width": 1108,
       "height": 368,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0983",
       "file_name": "toc_f/08-0983.jpg",
       "width": 1172,
       "height": 368,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0988",
       "file_name": "toc_f/08-0988.jpg",
       "width": 1040,
       "height": 496,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0994",
       "file_name": "toc_f/08-0994.jpg",
       "width": 992,
       "height": 368,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1001",
       "file_name": "toc_f/08-1001.jpg",
       "width": 1184,
       "height": 420,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1002",
       "file_name": "toc_f/08-1002.jpg",
       "width": 1304,
       "height": 436,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1012",
       "file_name": "toc_f/08-1012.jpg",
       "width": 1220,
       "height": 400,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1024",
       "file_name": "toc_f/08-1024.jpg",
       "width": 1116,
       "height": 428,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1037",
       "file_name": "toc_f/08-1037.jpg",
       "width": 1032,
       "height": 404,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1058",
       "file_name": "toc_f/08-1058.jpg",
       "width": 1220,
       "height": 420,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1059",
       "file_name": "toc_f/08-1059.jpg",
       "width": 1196,
       "height": 412,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1061",
       "file_name": "toc_f/08-1061.jpg",
       "width": 1104,
       "height": 368,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1065",
       "file_name": "toc_f/08-1065.jpg",
       "width": 1064,
       "height": 384,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1077",
       "file_name": "toc_f/08-1077.jpg",
       "width": 1196,
       "height": 472,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1112",
       "file_name": "toc_f/08-1112.jpg",
       "width": 1148,
       "height": 400,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1122",
       "file_name": "toc_f/08-1122.jpg",
       "width": 928,
       "height": 340,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1126",
       "file_name": "toc_f/08-1126.jpg",
       "width": 1144,
       "height": 396,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1132",
       "file_name": "toc_f/08-1132.jpg",
       "width": 940,
       "height": 340,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1142",
       "file_name": "toc_f/08-1142.jpg",
       "width": 1232,
       "height": 448,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1151",
       "file_name": "toc_f/08-1151.jpg",
       "width": 1124,
       "height": 388,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1195",
       "file_name": "toc_f/08-1195.jpg",
       "width": 1192,
       "height": 448,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1202",
       "file_name": "toc_f/08-1202.jpg",
       "width": 1200,
       "height": 468,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1222",
       "file_name": "toc_f/08-1222.jpg",
       "width": 1192,
       "height": 456,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1231",
       "file_name": "toc_f/08-1231.jpg",
       "width": 1092,
       "height": 396,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1238",
       "file_name": "toc_f/08-1238.jpg",
       "width": 1144,
       "height": 444,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1255",
       "file_name": "toc_f/08-1255.jpg",
       "width": 1088,
       "height": 396,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1265",
       "file_name": "toc_f/08-1265.jpg",
       "width": 1212,
       "height": 476,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1277",
       "file_name": "toc_f/08-1277.jpg",
       "width": 1056,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1280",
       "file_name": "toc_f/08-1280.jpg",
       "width": 1168,
       "height": 412,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1301",
       "file_name": "toc_f/08-1301.jpg",
       "width": 1268,
       "height": 504,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1325",
       "file_name": "toc_f/08-1325.jpg",
       "width": 1264,
       "height": 452,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1328",
       "file_name": "toc_f/08-1328.jpg",
       "width": 1248,
       "height": 492,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1329",
       "file_name": "toc_f/08-1329.jpg",
       "width": 1196,
       "height": 448,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1333",
       "file_name": "toc_f/08-1333.jpg",
       "width": 1156,
       "height": 392,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1336",
       "file_name": "toc_f/08-1336.jpg",
       "width": 1160,
       "height": 432,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1356",
       "file_name": "toc_f/08-1356.jpg",
       "width": 1184,
       "height": 528,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1367",
       "file_name": "toc_f/08-1367.jpg",
       "width": 944,
       "height": 328,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1372",
       "file_name": "toc_f/08-1372.jpg",
       "width": 1036,
       "height": 380,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1375",
       "file_name": "toc_f/08-1375.jpg",
       "width": 1068,
       "height": 400,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1376",
       "file_name": "toc_f/08-1376.jpg",
       "width": 1232,
       "height": 416,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1392",
       "file_name": "toc_f/08-1392.jpg",
       "width": 1176,
       "height": 396,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1397",
       "file_name": "toc_f/08-1397.jpg",
       "width": 1180,
       "height": 408,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1411",
       "file_name": "toc_f/08-1411.jpg",
       "width": 1188,
       "height": 428,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-1423",
       "file_name": "toc_f/08-1423.jpg",
       "width": 1036,
       "height": 356,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "test"
     },
     {
       "id": "08-1424",
       "file_name": "toc_f/08-1424.jpg",
       "width": 1228,
       "height": 380,
-      "location": "dummy",
-      "_category": "toc_f"
+      "location": "train"
     },
     {
       "id": "08-0021",
       "file_name": "toc_m/08-0021.jpg",
       "width": 1248,
       "height": 435,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0082",
       "file_name": "toc_m/08-0082.jpg",
       "width": 1326,
       "height": 429,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0093",
       "file_name": "toc_m/08-0093.jpg",
       "width": 1131,
       "height": 393,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-0182",
       "file_name": "toc_m/08-0182.jpg",
       "width": 1218,
       "height": 483,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-0188",
       "file_name": "toc_m/08-0188.jpg",
       "width": 1152,
       "height": 462,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-0202",
       "file_name": "toc_m/08-0202.jpg",
       "width": 1347,
       "height": 492,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0306",
       "file_name": "toc_m/08-0306.jpg",
       "width": 1176,
       "height": 372,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0313",
       "file_name": "toc_m/08-0313.jpg",
       "width": 1116,
       "height": 372,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0318",
       "file_name": "toc_m/08-0318.jpg",
       "width": 1323,
       "height": 420,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0320",
       "file_name": "toc_m/08-0320.jpg",
       "width": 1152,
       "height": 378,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0321",
       "file_name": "toc_m/08-0321.jpg",
       "width": 1161,
       "height": 399,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0345",
       "file_name": "toc_m/08-0345.jpg",
       "width": 1272,
       "height": 447,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0348",
       "file_name": "toc_m/08-0348.jpg",
       "width": 1326,
       "height": 504,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0351",
       "file_name": "toc_m/08-0351.jpg",
       "width": 1131,
       "height": 363,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0356",
       "file_name": "toc_m/08-0356.jpg",
       "width": 1107,
       "height": 351,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0368",
       "file_name": "toc_m/08-0368.jpg",
       "width": 1206,
       "height": 372,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0383",
       "file_name": "toc_m/08-0383.jpg",
       "width": 1062,
       "height": 396,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0411",
       "file_name": "toc_m/08-0411.jpg",
       "width": 1038,
       "height": 378,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0510",
       "file_name": "toc_m/08-0510.jpg",
       "width": 1005,
       "height": 345,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0516",
       "file_name": "toc_m/08-0516.jpg",
       "width": 1251,
       "height": 456,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0519",
       "file_name": "toc_m/08-0519.jpg",
       "width": 1140,
       "height": 378,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0521",
       "file_name": "toc_m/08-0521.jpg",
       "width": 1125,
       "height": 372,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0533",
       "file_name": "toc_m/08-0533.jpg",
       "width": 1125,
       "height": 384,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0641",
       "file_name": "toc_m/08-0641.jpg",
       "width": 1266,
       "height": 390,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0658",
       "file_name": "toc_m/08-0658.jpg",
       "width": 1182,
       "height": 360,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-0665",
       "file_name": "toc_m/08-0665.jpg",
       "width": 1164,
       "height": 390,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0669",
       "file_name": "toc_m/08-0669.jpg",
       "width": 1338,
       "height": 474,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0678",
       "file_name": "toc_m/08-0678.jpg",
       "width": 1020,
       "height": 354,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0691",
       "file_name": "toc_m/08-0691.jpg",
       "width": 1302,
       "height": 450,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0692",
       "file_name": "toc_m/08-0692.jpg",
       "width": 1005,
       "height": 348,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0761",
       "file_name": "toc_m/08-0761.jpg",
       "width": 1281,
       "height": 414,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0769",
       "file_name": "toc_m/08-0769.jpg",
       "width": 1395,
       "height": 438,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0776",
       "file_name": "toc_m/08-0776.jpg",
       "width": 1344,
       "height": 429,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0780",
       "file_name": "toc_m/08-0780.jpg",
       "width": 1065,
       "height": 342,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0813",
       "file_name": "toc_m/08-0813.jpg",
       "width": 1434,
       "height": 621,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-0826",
       "file_name": "toc_m/08-0826.jpg",
       "width": 1179,
       "height": 420,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0833",
       "file_name": "toc_m/08-0833.jpg",
       "width": 1407,
       "height": 456,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0877",
       "file_name": "toc_m/08-0877.jpg",
       "width": 1380,
       "height": 512,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0891",
       "file_name": "toc_m/08-0891.jpg",
       "width": 1316,
       "height": 440,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0895",
       "file_name": "toc_m/08-0895.jpg",
       "width": 1408,
       "height": 504,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0905",
       "file_name": "toc_m/08-0905.jpg",
       "width": 1252,
       "height": 412,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0923",
       "file_name": "toc_m/08-0923.jpg",
       "width": 1352,
       "height": 480,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0930",
       "file_name": "toc_m/08-0930.jpg",
       "width": 1248,
       "height": 448,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-0936",
       "file_name": "toc_m/08-0936.jpg",
       "width": 1420,
       "height": 524,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0948",
       "file_name": "toc_m/08-0948.jpg",
       "width": 1308,
       "height": 448,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0949",
       "file_name": "toc_m/08-0949.jpg",
       "width": 1196,
       "height": 416,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0960",
       "file_name": "toc_m/08-0960.jpg",
       "width": 1416,
       "height": 472,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0979",
       "file_name": "toc_m/08-0979.jpg",
       "width": 956,
       "height": 340,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-0985",
       "file_name": "toc_m/08-0985.jpg",
       "width": 1156,
       "height": 464,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-0986",
       "file_name": "toc_m/08-0986.jpg",
       "width": 1192,
       "height": 432,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-1040",
       "file_name": "toc_m/08-1040.jpg",
       "width": 1280,
       "height": 440,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-1046",
       "file_name": "toc_m/08-1046.jpg",
       "width": 1408,
       "height": 476,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1050",
       "file_name": "toc_m/08-1050.jpg",
       "width": 1108,
       "height": 372,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1078",
       "file_name": "toc_m/08-1078.jpg",
       "width": 1516,
       "height": 480,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-1080",
       "file_name": "toc_m/08-1080.jpg",
       "width": 1312,
       "height": 444,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-1094",
       "file_name": "toc_m/08-1094.jpg",
       "width": 1332,
       "height": 440,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1105",
       "file_name": "toc_m/08-1105.jpg",
       "width": 1408,
       "height": 524,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1118",
       "file_name": "toc_m/08-1118.jpg",
       "width": 1024,
       "height": 360,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1198",
       "file_name": "toc_m/08-1198.jpg",
       "width": 1180,
       "height": 472,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1228",
       "file_name": "toc_m/08-1228.jpg",
       "width": 1372,
       "height": 484,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1249",
       "file_name": "toc_m/08-1249.jpg",
       "width": 1372,
       "height": 460,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1257",
       "file_name": "toc_m/08-1257.jpg",
       "width": 1152,
       "height": 424,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1264",
       "file_name": "toc_m/08-1264.jpg",
       "width": 1316,
       "height": 464,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-1297",
       "file_name": "toc_m/08-1297.jpg",
       "width": 1108,
       "height": 460,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1362",
       "file_name": "toc_m/08-1362.jpg",
       "width": 1104,
       "height": 372,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1368",
       "file_name": "toc_m/08-1368.jpg",
       "width": 1128,
       "height": 416,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "train"
     },
     {
       "id": "08-1371",
       "file_name": "toc_m/08-1371.jpg",
       "width": 1260,
       "height": 456,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     },
     {
       "id": "08-1401",
       "file_name": "toc_m/08-1401.jpg",
       "width": 1192,
       "height": 420,
-      "location": "dummy",
-      "_category": "toc_m"
+      "location": "test"
     }
   ],
   "annotations": [
