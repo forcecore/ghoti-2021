@@ -768,3 +768,25 @@ self.resnet = torchvision.models.resnet50(pretrained=True, progress=True)
 ```
 
 이렇게 변경했다.
+
+## Result
+
+결국 scratch부터 짰다.
+
+```
+Accuracy: 0.7796610169491526
+f1: 0.6754756871035942
+```
+
+Behold! 필터 엔지니어링따위 안 하고 해냈다. 하하!
+
+이론 writing: FC layer만 training했다. Transfer learning에 대한 설명 넣기.
+
+이 경우 주의할 점?
+Dataset이라 하는 것은 real world에서 나온 것인가? 아니다.
+COCO나 ImageNet이니 하는 데이터셋 자체에도 bias가 있다.
+그래서 pretrained RESNET이 optimal하진 않고 해당 layer들도 fine-tuning하면 성능이 올라갈 것이다.
+
+https://crazyoscarchang.github.io/2019/02/16/seven-myths-in-machine-learning-research/#myth-2
+https://arxiv.org/abs/1902.06789
+이걸 읽어보길 추천한다.
