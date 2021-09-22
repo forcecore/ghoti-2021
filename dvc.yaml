@@ -6,7 +6,6 @@ stages:
            test_set_file=outputs/test_set.pickle
            class_to_index_file=outputs/class_to_index.json
     deps:
-      - data/gm_f/08-0128.jpg  # Just one of the samples for dependency calculations
       # Python deps
       - ghoti/dataset.py
       - ghoti/util.py
