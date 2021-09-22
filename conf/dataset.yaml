@@ -1,4 +1,0 @@
-test_ratio: 0.1  # Ratio of test set
-split_seed: 42
-dataset_root: ./data
-nn_input_size: 224

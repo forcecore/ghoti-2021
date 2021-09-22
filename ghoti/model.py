@@ -6,10 +6,10 @@ from torch import nn
 
 
 class MyResnet(pl.LightningModule):
-    def __init__(self, cnf: DictConfig, num_classes: int):
+    def __init__(self, num_classes: int, learning_rate: float):
         super().__init__()
-        self.cnf = cnf
         self.resnet = self.make_model(num_classes)
+        self.lr = learning_rate
         self.criterion = nn.CrossEntropyLoss()
 
     def make_model(self, num_classes):
@@ -38,4 +38,4 @@ class MyResnet(pl.LightningModule):
         self.log("val_loss", loss)
 
     def configure_optimizers(self):
-        return torch.optim.Adam(self.parameters(), lr=self.cnf.learning_rate)
+        return torch.optim.Adam(self.parameters(), lr=self.lr)

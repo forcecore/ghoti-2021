@@ -46,23 +46,19 @@ def get_datasets(dataset_root: "str|Path", nn_input_size: int, test_ratio: float
     return train_set, test_set, dataset.class_to_idx
 
 
-def check_input(cnf: DictConfig, cmd: DictConfig):
-    assert "dataset_root" in cnf
-    assert "nn_input_size" in cnf
-    assert "test_ratio" in cnf
-    assert "split_seed" in cnf
-
+def check_input(cmd: DictConfig):
     assert "train_set_file" in cmd
     assert "test_set_file" in cmd
 
 
 def main(argv: "list[str]"):
-    cnf = OmegaConf.load(argv[0])
-    cmd = OmegaConf.from_dotlist(argv[1:])
-    check_input(cnf, cmd)
+    root_cnf = OmegaConf.load("params.yaml")
+    cnf = root_cnf.dataset
+    cmd = OmegaConf.from_dotlist(argv)
+    check_input(cmd)
 
     train_set, test_set, class_to_index = get_datasets(
-        dataset_root=cnf.dataset_root,
+        dataset_root=cnf.root_dir,
         nn_input_size=cnf.nn_input_size,
         test_ratio=cnf.test_ratio,
         split_seed=cnf.split_seed

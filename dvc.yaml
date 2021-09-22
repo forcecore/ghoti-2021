@@ -1,46 +1,58 @@
 stages:
 
   train_test_split:
-    cmd: python -m ghoti.dataset conf/dataset.yaml
+    cmd: python -m ghoti.dataset
            train_set_file=outputs/train_set.pickle
            test_set_file=outputs/test_set.pickle
            class_to_index_file=outputs/class_to_index.json
     deps:
-      - conf/dataset.yaml
       - data/gm_f/08-0128.jpg  # Just one of the samples for dependency calculations
       # Python deps
       - ghoti/dataset.py
       - ghoti/util.py
+    params:
+      - dataset.test_ratio
+      - dataset.root_dir
+      - dataset.nn_input_size
+      - dataset.split_seed
     outs:
       - outputs/train_set.pickle
       - outputs/test_set.pickle
       - outputs/class_to_index.json
 
   train:
-    cmd: python -m ghoti.train conf/train.yaml
+    cmd: python -m ghoti.train
            class_to_index=outputs/class_to_index.json
            train_set_file=outputs/train_set.pickle
            class_to_index_file=outputs/class_to_index.json
            weight_file=outputs/weights.pt
     deps:
-      - conf/train.yaml
       - outputs/class_to_index.json
       - outputs/train_set.pickle
       # Python deps
       - ghoti/train.py
       - ghoti/util.py
       - ghoti/model.py
+    params:
+      - data_loader.batch_size
+      - data_loader.num_workers
+      - train.ngpus
+      - train.max_epochs
+      - train.patience
+      - train.learning_rate
     outs:
       - outputs/weights.pt
 
   eval:
-    cmd: python -m ghoti.do_eval conf/train.yaml
+    cmd: python -m ghoti.do_eval
            class_to_index_file=outputs/class_to_index.json
            test_set_file=outputs/test_set.pickle
            weight_file=outputs/weights.pt
            eval_result=outputs/eval.json
+    params:
+      - data_loader.batch_size
+      - data_loader.num_workers
     deps:
-      - conf/train.yaml
       - outputs/class_to_index.json
       - outputs/test_set.pickle
       - outputs/weights.pt
@@ -48,5 +60,5 @@ stages:
       - ghoti/do_eval.py
       - ghoti/util.py
       - ghoti/model.py
-    outs:
+    metrics:
       - outputs/eval.json

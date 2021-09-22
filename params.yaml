@@ -1,0 +1,15 @@
+dataset:
+  test_ratio: 0.1  # Ratio of test set
+  root_dir: ./data
+  nn_input_size: 224
+  split_seed: 43
+
+data_loader:
+  batch_size: 64
+  num_workers: 4
+
+train:
+  ngpus: 1
+  max_epochs: 1000
+  patience: 50
+  learning_rate: 3e-4

@@ -30,7 +30,10 @@ def as_indices(y_preds: "list[torch.Tensor]") -> "list[int]":
 
 
 def do_eval(cnf, net, test_set):
-    test_loader = DataLoader(test_set, batch_size=cnf.batch_size, shuffle=False, num_workers=cnf.num_workers)
+    test_loader = DataLoader(test_set,
+                        batch_size=cnf.data_loader.batch_size,
+                        num_workers=cnf.data_loader.num_workers,
+                        shuffle=False)
     y_preds = []
     y_true = []
     for batch in test_loader:
@@ -53,29 +56,26 @@ def do_eval(cnf, net, test_set):
     return result
 
 
-def check_input(cnf: DictConfig, cmd: DictConfig):
+def check_input(cmd: DictConfig):
     assert "test_set_file" in cmd
     assert "weight_file" in cmd
     assert "class_to_index_file" in cmd
     assert "eval_result" in cmd
-
-    assert "batch_size" in cnf
-    assert "num_workers" in cnf
 
 
 def main(argv: "list[str]"):
     """
     Do evaluation
     """
-    cnf = OmegaConf.load(argv[0])
-    cmd = OmegaConf.from_dotlist(argv[1:])
-    check_input(cnf, cmd)
+    cnf = OmegaConf.load("params.yaml")
+    cmd = OmegaConf.from_dotlist(argv)
+    check_input(cmd)
 
     with Path(cmd.class_to_index_file).open() as f:
         class_to_idx: dict = json.load(f)
     test_set: tv.datasets.ImageFolder = load_pickle(cmd.test_set_file)
 
-    net = MyResnet(cnf=None, num_classes=len(class_to_idx))
+    net = MyResnet(num_classes=len(class_to_idx), learning_rate=0.0)
     sd = torch.load(cmd.weight_file)
     net.load_state_dict(sd)
 

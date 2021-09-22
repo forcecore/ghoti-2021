@@ -23,11 +23,11 @@ def do_training(cnf, net: MyResnet, train_set: tv.datasets.ImageFolder):
         parameters.requires_grad = True
 
     # Train only the last FC layer
-    train_loader = DataLoader(train_set, batch_size=cnf.batch_size, shuffle=True, num_workers=cnf.num_workers)
-    trainer = pl.Trainer(gpus=cnf.ngpus, max_epochs=cnf.max_epochs,
+    train_loader = DataLoader(train_set, batch_size=cnf.data_loader.batch_size, shuffle=True, num_workers=cnf.data_loader.num_workers)
+    trainer = pl.Trainer(gpus=cnf.train.ngpus, max_epochs=cnf.train.max_epochs,
                     default_root_dir="./checkpoints",
                     callbacks=[
-                        plcb.EarlyStopping(monitor="train_loss", patience=cnf.patience)  # stop when train_loss plateaus
+                        plcb.EarlyStopping(monitor="train_loss", patience=cnf.train.patience)  # stop when train_loss plateaus
                     ])
     trainer.fit(net, train_loader)
 
@@ -38,13 +38,7 @@ def do_training(cnf, net: MyResnet, train_set: tv.datasets.ImageFolder):
     # trainer.fit(net, train_loader)
 
 
-def check_input(cnf: DictConfig, cmd: DictConfig):
-    assert "batch_size" in cnf
-    assert "num_workers" in cnf
-    assert "max_epochs" in cnf
-    assert "patience" in cnf
-    assert "ngpus" in cnf
-
+def check_input(cmd: DictConfig):
     assert "train_set_file" in cmd
     assert "weight_file" in cmd
 
@@ -53,14 +47,14 @@ def main(argv: "list[str]"):
     """
     Train the model
     """
-    cnf = OmegaConf.load(argv[0])
-    cmd = OmegaConf.from_dotlist(argv[1:])
-    check_input(cnf, cmd)
+    cnf = OmegaConf.load("params.yaml")
+    cmd = OmegaConf.from_dotlist(argv)
+    check_input(cmd)
 
     train_set: tv.datasets.ImageFolder = load_pickle(cmd.train_set_file)
     with Path(cmd.class_to_index_file).open() as f:
         class_to_idx: dict = json.load(f)
-    net = MyResnet(cnf=cnf, num_classes=len(class_to_idx))
+    net = MyResnet(num_classes=len(class_to_idx), learning_rate=cnf.train.learning_rate)
     do_training(cnf, net, train_set)
 
     # Write snapshot
