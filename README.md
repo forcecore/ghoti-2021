@@ -1,4 +1,4 @@
-# Some Memos
+# Identification of Cichlid Fishes from Lake Malawi Using Deep Learning
 
 ## Library to use
 
@@ -28,6 +28,7 @@ python 3.9를 기준으로 작성한다.
 $ python --version
 Python 3.9.6
 
+$ mkdir -p ~/usr
 $ python -m venv --system-site-packages ~/usr/venv-tf39
 $ source ~/usr/venv-tf39/bin/activate
 

@@ -1,12 +1,14 @@
 import pytorch_lightning as pl
 import torch
-from torch import nn
 import torchvision
+from omegaconf import DictConfig
+from torch import nn
 
 
 class MyResnet(pl.LightningModule):
-    def __init__(self, num_classes: int):
+    def __init__(self, cnf: DictConfig, num_classes: int):
         super().__init__()
+        self.cnf = cnf
         self.resnet = self.make_model(num_classes)
         self.criterion = nn.CrossEntropyLoss()
 
@@ -18,7 +20,7 @@ class MyResnet(pl.LightningModule):
         return model
 
     def forward(self, x):
-        return self.resnet(x)
+        return self.resnet.forward(x)
 
     def _calc_loss(self, batch):
         x, y = batch
@@ -36,4 +38,4 @@ class MyResnet(pl.LightningModule):
         self.log("val_loss", loss)
 
     def configure_optimizers(self):
-        return torch.optim.Adam(self.parameters(), lr=3e-4)
+        return torch.optim.Adam(self.parameters(), lr=self.cnf.learning_rate)

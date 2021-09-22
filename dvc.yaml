@@ -1,0 +1,52 @@
+stages:
+
+  train_test_split:
+    cmd: python -m ghoti.dataset conf/dataset.yaml
+           train_set_file=outputs/train_set.pickle
+           test_set_file=outputs/test_set.pickle
+           class_to_index_file=outputs/class_to_index.json
+    deps:
+      - conf/dataset.yaml
+      - data/gm_f/08-0128.jpg  # Just one of the samples for dependency calculations
+      # Python deps
+      - ghoti/dataset.py
+      - ghoti/util.py
+    outs:
+      - outputs/train_set.pickle
+      - outputs/test_set.pickle
+      - outputs/class_to_index.json
+
+  train:
+    cmd: python -m ghoti.train conf/train.yaml
+           class_to_index=outputs/class_to_index.json
+           train_set_file=outputs/train_set.pickle
+           class_to_index_file=outputs/class_to_index.json
+           weight_file=outputs/weights.pt
+    deps:
+      - conf/train.yaml
+      - outputs/class_to_index.json
+      - outputs/train_set.pickle
+      # Python deps
+      - ghoti/train.py
+      - ghoti/util.py
+      - ghoti/model.py
+    outs:
+      - outputs/weights.pt
+
+  eval:
+    cmd: python -m ghoti.do_eval conf/train.yaml
+           class_to_index_file=outputs/class_to_index.json
+           test_set_file=outputs/test_set.pickle
+           weight_file=outputs/weights.pt
+           eval_result=outputs/eval.json
+    deps:
+      - conf/train.yaml
+      - outputs/class_to_index.json
+      - outputs/test_set.pickle
+      - outputs/weights.pt
+      # Python deps
+      - ghoti/do_eval.py
+      - ghoti/util.py
+      - ghoti/model.py
+    outs:
+      - outputs/eval.json
