@@ -71,6 +71,10 @@ def main(argv: "list[str]"):
     dump_as_json(class_to_index, cmd.class_to_index_file)
     print("Wrote", cmd.class_to_index_file)
 
+    print()
+    print(f"Train set: {len(train_set)} samples")
+    print(f"Test set: {len(test_set)} samples")
+
 
 if __name__ == "__main__":
     main(sys.argv[1:])
