@@ -5,6 +5,7 @@ import json
 import sys
 from pathlib import Path
 
+import pytorch_lightning  # Not used in this file but must be imported, otherwise import MyResnet will cause segmentation fault
 import sklearn.metrics
 import torch
 import torchvision as tv

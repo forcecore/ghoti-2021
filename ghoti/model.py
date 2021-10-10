@@ -1,7 +1,6 @@
 import pytorch_lightning as pl
 import torch
 import torchvision
-from omegaconf import DictConfig
 from torch import nn
 
 
