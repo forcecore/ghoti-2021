@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-Copy files to this directory
+Copy the 2011 project's input files to this directory
 """
 # %%
 import os
