@@ -88,6 +88,7 @@ The results are the codes in "ghoti" directory.
 
 We used DVC (https://dvc.org) to control the data flow, as defined in `dvc.yaml`.
 Typing `dvc repro` command should give you a train/test data split, training and evaluation run.
+
 `./20_run_exps.sh` will give you 10 randomized trials.
 After the trial runs are complete, `dvc exp show` will display the results.
 The hyperparameters are defined in `params.yaml`.
@@ -130,6 +131,9 @@ the results may vary if you re-run the random trials yourself.
 | 10        | 0.83051  | 0.81271  |
 
 The average is an accuracy of 0.8254 ± 0.0423 and F1-score of 0.770435 ± 0.059 for the 10 trials above.
+In our 2013 work, the accuracies were 0.6649 and 0.7562 for 48-feature-classifier and 82-feature-classifier, respectively.
+This demonstrates the superiority of the deep learning methods.
+We expect further improvement if more deep learning techniques are applied.
 
 ## Remark
 
