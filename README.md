@@ -9,7 +9,8 @@ This project introduces recent deep learning methods for
 more accuracy with less human inputs and feature engineering.
 Here, we apply only some of the most basic techniques as a tutorial for other researchers.
 
-The code for our old work is located here: https://github.com/forcecore/ghoti
+* The code for our old work is located here: https://github.com/forcecore/ghoti
+* The photo (raw) of cichlids is available here: https://zenodo.org/record/5560501
 
 ## Environment Setup
 
